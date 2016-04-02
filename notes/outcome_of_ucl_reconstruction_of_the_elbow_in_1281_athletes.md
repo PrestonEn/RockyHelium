@@ -29,12 +29,19 @@ baseball pitcher styles
 #### Results
 
 75.5% (34/45) MLB players returned to the same level
+
 32% (61/188) minor league players returned to same level
+
 41% (77/188) minor league players moved up to  higher level - 35 (19%) moved up to MLB
+
 1.5% (5/346) collegiate players made it to MLB
+
 19% (66/346) moved up to minor league
+
 67% (233/346) returned to collegiate
+
 83% (118/131) high school returned to same level
+
 6% (8/131) moved on to pro baseball but not MLB
 
 #### Discussion
