@@ -43,6 +43,8 @@ Need to compile and read
 American Journal of Sports Medicine should have some good stuff of TJS
 
 #### Data
+[Baseball Hack Day Github Repo - Data and Resources](https://github.com/baseballhackday/data-and-resources/wiki/Resources-and-ideas)
+
 [Brooks Baseball: Pitchf/x data](http://www.brooksbaseball.net/)
 
 [Tommy John Surgery List](https://docs.google.com/spreadsheets/d/1gQujXQQGOVNaiuwSN680Hq-FDVsCwvN-3AazykOBON0/edit#gid=0)
