@@ -2,6 +2,8 @@
 
 #### Online Articles
 
+##### TJS
+
 [A Primer on Tommy John Surgery: Part One](http://www.hardballtimes.com/a-primer-on-tommy-john-surgery-part-one/)
 
 * focuses on time it takes for pitchers to return from TJS and how they perform once they return
@@ -35,6 +37,20 @@
 * TJS and contract negotiations
 
 **_Note: anything written by jeff zimmerman_**
+
+##### Baseball Statistics
+
+[Skill-Interactive ERA (SIERA)](http://www.fangraphs.com/library/pitching/siera/)
+
+* overview and further links for bg info on SIERA provided at link
+
+[FIP](http://www.fangraphs.com/library/pitching/fip/)
+
+* overview and further links for bg info on FIP provided at link
+
+[xFIP](http://www.fangraphs.com/library/pitching/xfip/)
+
+* overview and further links for bg info on FIP provided at link
 
 #### Journal Articles
 
