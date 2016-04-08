@@ -36,6 +36,9 @@
 
 * TJS and contract negotiations
 
+[Speed trap: How velocity has changed baseball](http://m.mlb.com/news/article/170046614/increase-in-hard-throwers-is-changing-mlb)
+
+
 **_Note: anything written by jeff zimmerman_**
 
 ##### Baseball Statistics
