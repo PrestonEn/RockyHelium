@@ -5,6 +5,7 @@
 [ ] get db details for injury database
 
 [ ] get pitchf/x data
+[Primer of pitchf x](https://fastballs.wordpress.com/2010/04/18/a-pitchfx-primer/)
 
 [ ] power analysis for regression analysis
 
