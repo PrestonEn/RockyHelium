@@ -46,7 +46,3 @@ Data should be formatted something like
 [ ] discussion
 
 [ ] conclusion
-<<<<<<< HEAD
-
-=======
->>>>>>> 2ed84a09cdcc0644d2b5a689bd2e26b02c4a8f8f
