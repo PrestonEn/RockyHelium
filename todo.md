@@ -4,7 +4,8 @@
 
 [x] get db details for injury database
 
-[ ] get pitchf/x data  - use R package?
+[ ] get pitchf/x data
+[Primer of pitchf x](https://fastballs.wordpress.com/2010/04/18/a-pitchfx-primer/)
 
 [ ] power analysis for regression analysis
 
@@ -45,4 +46,7 @@ Data should be formatted something like
 [ ] discussion
 
 [ ] conclusion
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2ed84a09cdcc0644d2b5a689bd2e26b02c4a8f8f
