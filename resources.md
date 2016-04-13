@@ -55,6 +55,13 @@
 
 * overview and further links for bg info on FIP provided at link
 
+[The Internet cried a little when you wrote that on it](http://www.hardballtimes.com/the-internet-cried-a-little-when-you-wrote-that-on-it/)
+
+* another primer on pitchF/x
+
+[A Pitch F/x Primer: Some tips on Run Values, Pitch Classifications, and Heat Maps](http://www.beyondtheboxscore.com/2011/3/31/2068855/pitch-fx-primer)
+
+
 #### Journal Articles
 
 Need to compile and read
