@@ -10,9 +10,7 @@
 
 * [Primer of pitchf x](https://fastballs.wordpress.com/2010/04/18/a-pitchfx-primer/)
 
-[ ] scrape fip constants from [FanGraphs](http://www.fangraphs.com/leaders.aspx?pos=all&stats=pit&lg=all&qual=0&type=2&season=2014&month=0&season1=2002&ind=0&team=0,ss&rost=0&age=&filter=&players=0)
-
-[ ] scrape league avg HR / FB rate from [FanGraphs](http://www.fangraphs.com/guts.aspx?type=cn)
+[x] scrape fip constants from [FanGraphs](http://www.fangraphs.com/guts.aspx?type=cn)
 
 [ ] scrape HR, BB, HBP, KO, IP from Lahmen R package
 
