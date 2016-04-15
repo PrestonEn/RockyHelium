@@ -61,6 +61,13 @@
 
 [A Pitch F/x Primer: Some tips on Run Values, Pitch Classifications, and Heat Maps](http://www.beyondtheboxscore.com/2011/3/31/2068855/pitch-fx-primer)
 
+#### Using R to analyze baseball
+
+[A Short(-ish) Introduction to Using R Packages for Baseball Research](http://www.hardballtimes.com/a-short-ish-introduction-to-using-r-for-baseball-research/)
+
+[How To Use R For Sports Stats, Part 1: The Absolute Basics](http://www.fangraphs.com/techgraphs/how-to-use-r-for-sports-stats-part-1-the-absolute-basics/)
+
+[Introduction to pitchRx package](https://cpsievert.github.io/pitchRx/)
 
 #### Journal Articles
 
@@ -79,4 +86,6 @@ American Journal of Sports Medicine should have some good stuff of TJS
 
 [Tommy John Surgery Aging Curve](http://www.baseballheatmaps.com/tommy-john-aging-curve/)
 
-**need to speak get access to Amazon server for other injury data**
+[League average HR/FB%](http://www.fangraphs.com/leaders.aspx?pos=all&stats=pit&lg=all&qual=0&type=2&season=2014&month=0&season1=2002&ind=0&team=0,ss&rost=0&age=&filter=&players=0)
+
+[FIP constants](http://www.fangraphs.com/guts.aspx?type=cn)

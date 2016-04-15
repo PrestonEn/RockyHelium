@@ -6,50 +6,65 @@ handedness
 
 age
 
-age at surgery
-
 position (reliever or starter)
 
 height
 
 weight
 
-#### Pitcher Attributes of interest
+#### Inputs
 
-pitch velocity
+    index year: year tjs player had surgery
+    tjs: (boolean) is the player in tjs class
+    for index year, index year - 1 & index year - 2
+        fip: fielding independent pitching stat (see ref. for calculation)
+        xfip: expected fielding independent pitching stat (see ref. for calculation)
+        for each pitch type (pitchf/x data from brooksbaseball.net)
+            avg release speed
+            max release speed
+            horizontal movement
+            vertical movement
+            vertical movement + gravity
+            horizontal release point
+            vertical release point
+            horizontal pitch location
+            vertical pitch location
+            grooved pitches
+        prior elbow injury
+        number of days on dl prior to prior to injury
 
-number of pitches thrown
+*Pitchf/x data:* values should be taken based on year
 
-number of innings pitched
+* deeper analysis of month, game can talked about in future directions part of discussion.
 
-% of fastballs thrown
+*FIP/xFIP:* these calculations require
 
-strikes thrown
+* home runs
+* walks
+* hit by pitch
+* strikes
+* innings pitched
+* fip constant
+* fly balls
+* league average home run / fly ball rate
 
-SIERA
-
-FIP
-
-xFIP
-
-DL before TJS for elbow related injury
-
-average days rest between games
 
 #### Methods to be used
 
-Regression
+Linear Regression
 
-neural networks
+Neural Network
 
-SVM
+##### Statistics
 
-PCA???
+Power analysis for all inputs
 
-apriori power analysis for all attributes
+Test for normality?
 
-t-tests
+T-tests?
 
-compare within group before and after index year
+ANOVA?
 
-compare between groups before and after index year
+Compare within group before and after index year
+
+Compare between groups before and after index year

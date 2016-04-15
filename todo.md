@@ -2,10 +2,19 @@
 
 #### Prep
 
+**See [Project Proposal](https://github.com/PrestonEn/RockyHelium/blob/master/4p76_project_proposal.md) for details on required data**
+
 [x] get db details for injury database
 
-[ ] get pitchf/x data
-[Primer of pitchf x](https://fastballs.wordpress.com/2010/04/18/a-pitchfx-primer/)
+[ ] scrape pitchf/x data from [Brooks Baseball](http://www.brooksbaseball.net/)
+
+* [Primer of pitchf x](https://fastballs.wordpress.com/2010/04/18/a-pitchfx-primer/)
+
+[ ] scrape fip constants from [FanGraphs](http://www.fangraphs.com/leaders.aspx?pos=all&stats=pit&lg=all&qual=0&type=2&season=2014&month=0&season1=2002&ind=0&team=0,ss&rost=0&age=&filter=&players=0)
+
+[ ] scrape league avg HR / FB rate from [FanGraphs](http://www.fangraphs.com/guts.aspx?type=cn)
+
+[ ] scrape HR, BB, HBP, K, IP from *???*
 
 [ ] power analysis for regression analysis
 
