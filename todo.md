@@ -14,13 +14,13 @@
 
 [ ] scrape league avg HR / FB rate from [FanGraphs](http://www.fangraphs.com/guts.aspx?type=cn)
 
-[ ] scrape HR, BB, HBP, K, IP from *???*
+[ ] scrape HR, BB, HBP, KO, IP from Lahmen R package
 
 [ ] power analysis for regression analysis
 
 [ ] build up data sets
 
-    for all index years (2010, 2011, 2012, 2013, 2014, 2015)
+    for all index years (2010, 2011, 2012, 2013, 2014)
 	    grab pitchers for index year with "UCL Reconstruction" contained in descDetails
 	    	does pitcher have prior injury data for same year?
 	    		encode this somehow - # of days on DL?

@@ -18,7 +18,6 @@ weight
     tjs: (boolean) is the player in tjs class
     for index year, index year - 1 & index year - 2
         fip: fielding independent pitching stat (see ref. for calculation)
-        xfip: expected fielding independent pitching stat (see ref. for calculation)
         for each pitch type (pitchf/x data from brooksbaseball.net)
             avg release speed
             max release speed
@@ -37,16 +36,14 @@ weight
 
 * deeper analysis of month, game can talked about in future directions part of discussion.
 
-*FIP/xFIP:* these calculations require
+*FIP:* these calculations require
 
 * home runs
 * walks
 * hit by pitch
-* strikes
+* strikeouts
 * innings pitched
 * fip constant
-* fly balls
-* league average home run / fly ball rate
 
 
 #### Methods to be used
