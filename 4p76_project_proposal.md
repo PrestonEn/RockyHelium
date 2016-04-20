@@ -23,9 +23,6 @@ weight
             max release speed
             horizontal movement
             vertical movement
-            vertical movement + gravity
-            horizontal release point
-            vertical release point
             horizontal pitch location
             vertical pitch location
             grooved pitches
