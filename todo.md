@@ -6,7 +6,7 @@
 
 [x] get db details for injury database
 
-[ ] scrape pitchf/x data from [Brooks Baseball](http://www.brooksbaseball.net/)
+[x] scrape pitchf/x data from [Brooks Baseball](http://www.brooksbaseball.net/)
 
 * [Primer of pitchf x](https://fastballs.wordpress.com/2010/04/18/a-pitchfx-primer/)
 
@@ -29,10 +29,7 @@
 		match based on demographic details
 			ex. age, height, weight, throwing arm, etc. (see prev. studies)
 
-Data should be formatted something like
 
-* name, mlbam_id, index_year, prior_injury_stats, performance_stats
-* prior_injury_stats and performance_stats will likely be multiple columns
 
 #### Coding
 
