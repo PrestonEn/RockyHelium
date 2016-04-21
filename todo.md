@@ -12,11 +12,11 @@
 
 [x] scrape fip constants from [FanGraphs](http://www.fangraphs.com/guts.aspx?type=cn)
 
-[ ] scrape HR, BB, HBP, KO, IP from Lahmen R package
+[x] scrape HR, BB, HBP, KO, IP from Chadwick repo
+
+[ ] make list of comparable pitchers without injury
 
 [ ] power analysis for regression analysis
-
-[ ] build up data sets
 
     for all index years (2010, 2011, 2012, 2013, 2014)
 	    grab pitchers for index year with "UCL Reconstruction" contained in descDetails
