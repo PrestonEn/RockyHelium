@@ -15,5 +15,6 @@ control_pitchers_clean <- ddply(control_pitchers_clean,
 
 dim(control_pitchers)
 dim(control_pitchers_clean)
-write.table(keeps, "data/stats_control_pitchers_clean.csv", quote = F)
-write.table(control_pitchers_clean, "data/stats_control_pitchers_clean.csv", append = TRUE, quote = F, row.names = F, col.names = F)
+
+write.table(control_pitchers_clean, "data/stats_control_pitchers_clean.csv", append = F, quote = F, row.names = F, col.names = T, sep=",")
+
