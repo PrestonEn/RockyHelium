@@ -2,6 +2,7 @@ library(XML)
 library(tidyr)
 library(dplyr)
 library(magrittr)
+library(reshape2)
 
 pitchers <- tbl_df(read.csv("data/tjs_pitchers.csv"))
 pitchers.keys <- pitchers$key_mlbam
@@ -46,6 +47,9 @@ for (i in pitchers.keys) {
       rbind(pitchfx)
   }
 }
+
+pitchfx %<>%
+  + dcast(mlbam_id + year + pfx_var ~ pitchType)
 
 pitchfx %>%
   write.csv(file="data/pitchfx_tjs_pitchers.csv", row.names = FALSE)
