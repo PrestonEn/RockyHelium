@@ -22,3 +22,5 @@ eligible.rmtjs
 
 eligible.id %>%
   write.csv(file="data/control_pitchers_mlbamid.csv", row.names = FALSE)
+
+
