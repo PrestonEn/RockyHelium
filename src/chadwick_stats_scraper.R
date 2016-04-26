@@ -6,7 +6,8 @@ library(dplyr)
 library(magrittr)
 
 print(paste("Loading pitchers file and extracting keys..."))
-pitchers <- tbl_df(read.csv("data/tjs_pitchers.csv"))
+#pitchers <- tbl_df(read.csv("data/tjs_pitchers.csv"))
+pitchers <- tbl_df(read.csv("data/control_pitchers_mlbamid.csv"))
 pitchers.keys <- pitchers$key_mlbam
 print(paste("Loading fip constants..."))
 fipc <- read.csv("data/fip_constants.csv", stringsAsFactors = FALSE)
@@ -53,4 +54,5 @@ for (i in pitchers.keys) {
 }
 
 stats_fips %>%
-  write.csv(file="data/stats_tjs_pitchers.csv", row.names = FALSE)
+  #write.csv(file="data/stats_tjs_pitchers.csv", row.names = FALSE)
+  write.csv(file="data/stats_control_pitchers.csv", row.names = FALSE)
