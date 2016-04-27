@@ -35,7 +35,7 @@ cpf <- cpf[ , !(names(cpf) %in% c('cFIP'))]
 
 
 # have to also aggregate tjs players if more than 1 record per year
-keeps <- c("playerID", "mlbam_id", "yearID","HR","BB","HBP", "SO","IPouts")
+keeps <- c("playerID", "mlbam_id", "yearID","HR","BB","HBP", "SO","IPouts", "FIP")
 tjs_pitchers <- tjs_pitchers[keeps]
 tjs_pitchers <- ddply(tjs_pitchers,
              .(playerID, mlbam_id, yearID),
