@@ -4,7 +4,7 @@ library(dplyr)
 library(magrittr)
 library(reshape2)
 
-pitchers <- tbl_df(read.csv("data/control_pitchers_mlbamid.csv"))
+pitchers <- tbl_df(read.csv("data/tjs_pitchers.csv"))
 pitchers.keys <- pitchers$key_mlbam
 #pitchers.keys <- c(506560)
 var_list <- c("mph", "maxmph", "pfx_x", "pfx_z", "hloc", "vloc", "bway")
@@ -53,4 +53,4 @@ pitchfx %<>%
   + dcast(mlbam_id + year + pfx_var ~ pitchType)
 
 pitchfx %>%
-  write.csv(file="data/pitchfx_controls_pitchers.csv", row.names = FALSE)
+  write.csv(file="data/pitchfx_tjs_pitchers2.csv", row.names = FALSE)
