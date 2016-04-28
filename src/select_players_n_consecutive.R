@@ -2,10 +2,11 @@
 # 0 indicates no surgery, 1 indicates surgery
 #
 # Preston Engstrom
-
+library(dplyr)
 
 cplyrs <- read.csv('data/stats_control_pitchers_clean.csv')
 tjplyrs <- read.csv('data/stats_tjs_pitchers_clean.csv')
+index_years <- read.csv('data/tjs_pitchers.csv')
 
 years <- unique(cplyrs$yearID)
 
@@ -54,7 +55,15 @@ tjspf <- merge(x = tjplyrs,
              by ='playerID',
              all.y = T)
 
-print(length(unique(tjplyrs$playerID)))
+tjspf <- merge(x = tjspf,
+               y = index_years[c('key_mlbam', 'index_year')],
+               by.x ='mlbam_id',
+               by.y = 'key_mlbam',
+               all.x = T)
+
+tjspf$ind_diff <- tjspf$index_year - tjspf$yearID
+tjspf <- subset(tjspf, ind_diff < 2)
+
 write.table(cpf, "data/control_pitchers_2_cons.csv",
             append = F, quote = F, row.names = F, col.names = T, sep=",")
 
