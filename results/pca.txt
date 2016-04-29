@@ -1,0 +1,113 @@
+Importance of components:
+                            PC1      PC2      PC3       PC4       PC5
+Standard deviation     689.9967 491.2045 339.5795 324.82743 224.63673
+Proportion of Variance   0.4156   0.2106   0.1007   0.09211   0.04405
+Cumulative Proportion    0.4156   0.6262   0.7269   0.81903   0.86308
+                             PC6       PC7       PC8       PC9
+Standard deviation     193.02330 170.70332 157.19819 120.83363
+Proportion of Variance   0.03253   0.02544   0.02157   0.01275
+Cumulative Proportion    0.89561   0.92104   0.94262   0.95536
+                            PC10     PC11     PC12     PC13     PC14
+Standard deviation     100.24154 83.76854 68.93729 65.17147 61.96912
+Proportion of Variance   0.00877  0.00613  0.00415  0.00371  0.00335
+Cumulative Proportion    0.96413  0.97026  0.97441  0.97812  0.98147
+                           PC15     PC16     PC17     PC18     PC19
+Standard deviation     59.97435 51.73363 50.35116 45.55195 40.47014
+Proportion of Variance  0.00314  0.00234  0.00221  0.00181  0.00143
+Cumulative Proportion   0.98461  0.98695  0.98916  0.99097  0.99240
+                           PC20     PC21     PC22    PC23     PC24
+Standard deviation     39.78218 33.43126 31.47549 28.2675 25.33449
+Proportion of Variance  0.00138  0.00098  0.00086  0.0007  0.00056
+Cumulative Proportion   0.99378  0.99476  0.99562  0.9963  0.99688
+                           PC25     PC26     PC27     PC28     PC29
+Standard deviation     23.59040 22.94253 19.93994 18.71320 18.32000
+Proportion of Variance  0.00049  0.00046  0.00035  0.00031  0.00029
+Cumulative Proportion   0.99737  0.99783  0.99817  0.99848  0.99877
+                           PC30     PC31     PC32     PC33    PC34
+Standard deviation     16.79507 14.81790 13.87651 12.57617 10.4524
+Proportion of Variance  0.00025  0.00019  0.00017  0.00014  0.0001
+Cumulative Proportion   0.99902  0.99921  0.99938  0.99952  0.9996
+                          PC35    PC36    PC37    PC38    PC39    PC40
+Standard deviation     9.93865 7.77427 6.55023 5.97081 3.90755 3.84528
+Proportion of Variance 0.00009 0.00005 0.00004 0.00003 0.00001 0.00001
+Cumulative Proportion  0.99970 0.99975 0.99979 0.99982 0.99983 0.99984
+                          PC41    PC42    PC43    PC44    PC45    PC46
+Standard deviation     3.59325 3.41609 3.30812 3.18365 3.10409 2.98561
+Proportion of Variance 0.00001 0.00001 0.00001 0.00001 0.00001 0.00001
+Cumulative Proportion  0.99986 0.99987 0.99988 0.99988 0.99989 0.99990
+                          PC47    PC48    PC49    PC50    PC51    PC52
+Standard deviation     2.91994 2.83094 2.75559 2.66015 2.50452 2.49501
+Proportion of Variance 0.00001 0.00001 0.00001 0.00001 0.00001 0.00001
+Cumulative Proportion  0.99991 0.99991 0.99992 0.99993 0.99993 0.99994
+                         PC53  PC54  PC55  PC56  PC57  PC58  PC59  PC60
+Standard deviation     2.3424 2.243 2.142 2.131 2.068 1.949 1.858 1.797
+Proportion of Variance 0.0000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+Cumulative Proportion  0.9999 1.000 1.000 1.000 1.000 1.000 1.000 1.000
+                        PC61  PC62  PC63  PC64  PC65  PC66  PC67  PC68
+Standard deviation     1.754 1.648 1.624 1.518 1.509 1.409 1.394 1.319
+Proportion of Variance 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+Cumulative Proportion  1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000
+                        PC69  PC70  PC71  PC72   PC73   PC74   PC75
+Standard deviation     1.272 1.213 1.074 1.041 0.9845 0.9465 0.9062
+Proportion of Variance 0.000 0.000 0.000 0.000 0.0000 0.0000 0.0000
+Cumulative Proportion  1.000 1.000 1.000 1.000 1.0000 1.0000 1.0000
+                         PC76  PC77   PC78   PC79   PC80   PC81   PC82
+Standard deviation     0.8725 0.842 0.8218 0.7879 0.7728 0.7264 0.6812
+Proportion of Variance 0.0000 0.000 0.0000 0.0000 0.0000 0.0000 0.0000
+Cumulative Proportion  1.0000 1.000 1.0000 1.0000 1.0000 1.0000 1.0000
+                         PC83  PC84   PC85   PC86   PC87   PC88  PC89
+Standard deviation     0.6377 0.617 0.6081 0.5697 0.5325 0.5075 0.478
+Proportion of Variance 0.0000 0.000 0.0000 0.0000 0.0000 0.0000 0.000
+Cumulative Proportion  1.0000 1.000 1.0000 1.0000 1.0000 1.0000 1.000
+                         PC90  PC91   PC92   PC93   PC94   PC95   PC96
+Standard deviation     0.4603 0.443 0.4156 0.4045 0.4025 0.3777 0.3714
+Proportion of Variance 0.0000 0.000 0.0000 0.0000 0.0000 0.0000 0.0000
+Cumulative Proportion  1.0000 1.000 1.0000 1.0000 1.0000 1.0000 1.0000
+                         PC97   PC98   PC99  PC100  PC101  PC102  PC103
+Standard deviation     0.3549 0.3295 0.3102 0.2997 0.2881 0.2704 0.2637
+Proportion of Variance 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000
+Cumulative Proportion  1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000
+                        PC104  PC105  PC106  PC107  PC108 PC109  PC110
+Standard deviation     0.2577 0.2504 0.2412 0.2365 0.2179 0.206 0.2037
+Proportion of Variance 0.0000 0.0000 0.0000 0.0000 0.0000 0.000 0.0000
+Cumulative Proportion  1.0000 1.0000 1.0000 1.0000 1.0000 1.000 1.0000
+                        PC111  PC112  PC113  PC114  PC115  PC116  PC117
+Standard deviation     0.1983 0.1917 0.1831 0.1779 0.1695 0.1627 0.1587
+Proportion of Variance 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000
+Cumulative Proportion  1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000
+                        PC118  PC119  PC120 PC121  PC122  PC123  PC124
+Standard deviation     0.1506 0.1411 0.1384 0.132 0.1253 0.1176 0.1139
+Proportion of Variance 0.0000 0.0000 0.0000 0.000 0.0000 0.0000 0.0000
+Cumulative Proportion  1.0000 1.0000 1.0000 1.000 1.0000 1.0000 1.0000
+                        PC125   PC126   PC127   PC128   PC129   PC130
+Standard deviation     0.1053 0.09574 0.09206 0.08695 0.08034 0.07485
+Proportion of Variance 0.0000 0.00000 0.00000 0.00000 0.00000 0.00000
+Cumulative Proportion  1.0000 1.00000 1.00000 1.00000 1.00000 1.00000
+                         PC131   PC132   PC133     PC134     PC135
+Standard deviation     0.06774 0.04434 0.03436 5.444e-14 5.444e-14
+Proportion of Variance 0.00000 0.00000 0.00000 0.000e+00 0.000e+00
+Cumulative Proportion  1.00000 1.00000 1.00000 1.000e+00 1.000e+00
+                           PC136     PC137     PC138     PC139
+Standard deviation     5.444e-14 5.444e-14 5.444e-14 5.444e-14
+Proportion of Variance 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+Cumulative Proportion  1.000e+00 1.000e+00 1.000e+00 1.000e+00
+                           PC140     PC141     PC142     PC143
+Standard deviation     5.444e-14 5.444e-14 5.444e-14 5.444e-14
+Proportion of Variance 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+Cumulative Proportion  1.000e+00 1.000e+00 1.000e+00 1.000e+00
+                           PC144     PC145     PC146     PC147
+Standard deviation     5.444e-14 5.444e-14 5.444e-14 5.444e-14
+Proportion of Variance 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+Cumulative Proportion  1.000e+00 1.000e+00 1.000e+00 1.000e+00
+                           PC148     PC149     PC150     PC151
+Standard deviation     5.444e-14 5.444e-14 5.444e-14 5.444e-14
+Proportion of Variance 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+Cumulative Proportion  1.000e+00 1.000e+00 1.000e+00 1.000e+00
+                           PC152     PC153     PC154     PC155
+Standard deviation     5.444e-14 5.444e-14 5.444e-14 5.444e-14
+Proportion of Variance 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+Cumulative Proportion  1.000e+00 1.000e+00 1.000e+00 1.000e+00
+                           PC156     PC157
+Standard deviation     5.444e-14 5.444e-14
+Proportion of Variance 0.000e+00 0.000e+00
+Cumulative Proportion  1.000e+00 1.000e+00

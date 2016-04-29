@@ -1,0 +1,352 @@
+      BB.x            BB.y        birth_year   Change.bway.x    
+ Min.   : 0.00   Min.   : 0.0   Min.   :1970   Min.   :  0.000  
+ 1st Qu.: 8.00   1st Qu.:11.0   1st Qu.:1982   1st Qu.:  0.000  
+ Median :17.00   Median :21.0   Median :1985   Median :  1.910  
+ Mean   :22.95   Mean   :27.1   Mean   :1984   Mean   :  2.865  
+ 3rd Qu.:32.50   3rd Qu.:42.0   3rd Qu.:1987   3rd Qu.:  4.095  
+ Max.   :90.00   Max.   :86.0   Max.   :1992   Max.   :100.000  
+                                                                
+ Change.bway.y    Change.hloc.x     Change.hloc.y     Change.maxmph.x
+ Min.   : 0.000   Min.   :-1.3500   Min.   :-0.3300   Min.   : 0.00  
+ 1st Qu.: 0.000   1st Qu.: 0.0000   1st Qu.: 0.1400   1st Qu.:81.02  
+ Median : 1.480   Median : 0.4200   Median : 0.5300   Median :86.70  
+ Mean   : 2.329   Mean   : 0.4309   Mean   : 0.5151   Mean   :68.06  
+ 3rd Qu.: 3.640   3rd Qu.: 0.6600   3rd Qu.: 0.7000   3rd Qu.:88.90  
+ Max.   :33.330   Max.   : 2.7500   Max.   : 2.6000   Max.   :94.12  
+                                                                     
+ Change.maxmph.y  Change.mph.x    Change.mph.y   Change.pfx_x.x   
+ Min.   : 0.00   Min.   : 0.00   Min.   : 0.00   Min.   :-10.490  
+ 1st Qu.:83.87   1st Qu.:78.55   1st Qu.:80.36   1st Qu.: -7.935  
+ Median :87.05   Median :83.92   Median :83.92   Median : -4.590  
+ Mean   :71.74   Mean   :65.73   Mean   :69.27   Mean   : -2.014  
+ 3rd Qu.:89.19   3rd Qu.:86.00   3rd Qu.:86.22   3rd Qu.:  0.000  
+ Max.   :93.25   Max.   :91.73   Max.   :90.59   Max.   : 12.470  
+                                                                  
+ Change.pfx_x.y    Change.pfx_z.x   Change.pfx_z.y   Change.vloc.x   
+ Min.   :-10.920   Min.   :-5.900   Min.   :-3.130   Min.   :-1.800  
+ 1st Qu.: -7.670   1st Qu.: 0.020   1st Qu.: 1.745   1st Qu.:-0.915  
+ Median : -4.970   Median : 3.540   Median : 4.040   Median :-0.670  
+ Mean   : -1.945   Mean   : 3.402   Mean   : 3.735   Mean   :-0.580  
+ 3rd Qu.:  3.595   3rd Qu.: 5.700   3rd Qu.: 5.715   3rd Qu.: 0.000  
+ Max.   : 12.950   Max.   :10.310   Max.   :10.580   Max.   : 1.960  
+                                                                     
+ Change.vloc.y        Change.x        Change.y       Curve.bway.x   
+ Min.   :-1.5600   Min.   :  0.0   Min.   :   0.0   Min.   : 0.000  
+ 1st Qu.:-0.8600   1st Qu.:  1.0   1st Qu.:   4.0   1st Qu.: 0.000  
+ Median :-0.6200   Median : 32.0   Median :  36.0   Median : 2.530  
+ Mean   :-0.5407   Mean   :103.6   Mean   : 127.4   Mean   : 2.803  
+ 3rd Qu.:-0.1250   3rd Qu.:149.0   3rd Qu.: 163.0   3rd Qu.: 4.905  
+ Max.   : 1.1100   Max.   :800.0   Max.   :1069.0   Max.   :16.670  
+                                                                    
+  Curve.bway.y     Curve.hloc.x      Curve.hloc.y    Curve.maxmph.x 
+ Min.   : 0.000   Min.   :-1.0500   Min.   :-1.490   Min.   : 0.00  
+ 1st Qu.: 0.000   1st Qu.: 0.0000   1st Qu.: 0.000   1st Qu.: 0.00  
+ Median : 2.160   Median : 0.2000   Median : 0.160   Median :79.86  
+ Mean   : 2.484   Mean   : 0.2263   Mean   : 0.214   Mean   :53.11  
+ 3rd Qu.: 4.615   3rd Qu.: 0.3900   3rd Qu.: 0.405   3rd Qu.:82.49  
+ Max.   :10.770   Max.   : 0.9400   Max.   : 1.260   Max.   :89.05  
+                                                                    
+ Curve.maxmph.y   Curve.mph.x     Curve.mph.y    Curve.pfx_x.x   
+ Min.   : 0.00   Min.   : 0.00   Min.   : 0.00   Min.   :-9.600  
+ 1st Qu.: 0.00   1st Qu.: 0.00   1st Qu.: 0.00   1st Qu.: 0.000  
+ Median :78.82   Median :75.78   Median :75.29   Median : 0.000  
+ Mean   :52.11   Mean   :50.69   Mean   :49.66   Mean   : 1.618  
+ 3rd Qu.:82.77   3rd Qu.:78.78   3rd Qu.:78.75   3rd Qu.: 4.795  
+ Max.   :89.74   Max.   :86.17   Max.   :86.76   Max.   :11.870  
+                                                                 
+ Curve.pfx_x.y    Curve.pfx_z.x     Curve.pfx_z.y      Curve.vloc.x   
+ Min.   :-8.960   Min.   :-11.960   Min.   :-10.830   Min.   :-2.820  
+ 1st Qu.: 0.000   1st Qu.: -6.055   1st Qu.: -6.060   1st Qu.:-0.915  
+ Median : 0.000   Median : -2.890   Median : -2.990   Median :-0.570  
+ Mean   : 1.658   Mean   : -3.341   Mean   : -3.233   Mean   :-0.520  
+ 3rd Qu.: 5.035   3rd Qu.:  0.000   3rd Qu.:  0.000   3rd Qu.: 0.000  
+ Max.   :11.210   Max.   :  1.770   Max.   :  2.040   Max.   : 2.090  
+                                                                      
+  Curve.vloc.y        Curve.x         Curve.y       Cutter.bway.x   
+ Min.   :-2.1000   Min.   :  0.0   Min.   :   0.0   Min.   : 0.000  
+ 1st Qu.:-0.8500   1st Qu.:  0.0   1st Qu.:   0.0   1st Qu.: 0.000  
+ Median :-0.4800   Median : 44.0   Median :  56.0   Median : 0.000  
+ Mean   :-0.4719   Mean   :115.5   Mean   : 138.3   Mean   : 1.605  
+ 3rd Qu.: 0.0000   3rd Qu.:159.0   3rd Qu.: 227.0   3rd Qu.: 2.980  
+ Max.   : 2.4100   Max.   :669.0   Max.   :1151.0   Max.   :12.750  
+                                                                    
+ Cutter.bway.y    Cutter.hloc.x      Cutter.hloc.y      Cutter.maxmph.x
+ Min.   : 0.000   Min.   :-1.01000   Min.   :-0.80000   Min.   : 0.00  
+ 1st Qu.: 0.000   1st Qu.: 0.00000   1st Qu.: 0.00000   1st Qu.: 0.00  
+ Median : 0.000   Median : 0.00000   Median : 0.00000   Median : 0.00  
+ Mean   : 1.502   Mean   : 0.07344   Mean   : 0.07423   Mean   :31.92  
+ 3rd Qu.: 0.000   3rd Qu.: 0.06000   3rd Qu.: 0.00000   3rd Qu.:90.20  
+ Max.   :20.000   Max.   : 1.45000   Max.   : 1.68000   Max.   :97.34  
+                                                                       
+ Cutter.maxmph.y  Cutter.mph.x    Cutter.mph.y   Cutter.pfx_x.x   
+ Min.   : 0.00   Min.   : 0.00   Min.   : 0.00   Min.   :-5.3400  
+ 1st Qu.: 0.00   1st Qu.: 0.00   1st Qu.: 0.00   1st Qu.: 0.0000  
+ Median : 0.00   Median : 0.00   Median : 0.00   Median : 0.0000  
+ Mean   :26.02   Mean   :30.80   Mean   :25.08   Mean   : 0.0493  
+ 3rd Qu.:88.48   3rd Qu.:86.86   3rd Qu.:85.11   3rd Qu.: 0.0000  
+ Max.   :97.74   Max.   :93.36   Max.   :93.77   Max.   : 3.6100  
+                                                                  
+ Cutter.pfx_x.y     Cutter.pfx_z.x  Cutter.pfx_z.y  Cutter.vloc.x   
+ Min.   :-3.28000   Min.   :0.000   Min.   :0.000   Min.   :-1.720  
+ 1st Qu.: 0.00000   1st Qu.:0.000   1st Qu.:0.000   1st Qu.:-0.125  
+ Median : 0.00000   Median :0.000   Median :0.000   Median : 0.000  
+ Mean   : 0.05986   Mean   :1.769   Mean   :1.482   Mean   :-0.110  
+ 3rd Qu.: 0.00000   3rd Qu.:3.955   3rd Qu.:3.650   3rd Qu.: 0.000  
+ Max.   : 4.20000   Max.   :9.230   Max.   :8.290   Max.   : 2.200  
+                                                                    
+ Cutter.vloc.y         Cutter.x          Cutter.y          FIP.x       
+ Min.   :-1.72000   Min.   :   0.00   Min.   :  0.00   Min.   :-2.952  
+ 1st Qu.: 0.00000   1st Qu.:   0.00   1st Qu.:  0.00   1st Qu.: 3.377  
+ Median : 0.00000   Median :   0.00   Median :  0.00   Median : 3.991  
+ Mean   :-0.09233   Mean   :  77.99   Mean   : 76.95   Mean   : 4.194  
+ 3rd Qu.: 0.00000   3rd Qu.:  22.50   3rd Qu.:  8.50   3rd Qu.: 4.671  
+ Max.   : 1.03000   Max.   :1046.00   Max.   :942.00   Max.   :11.230  
+                                                                       
+     FIP.y     Fourseam.bway.x  Fourseam.bway.y  Fourseam.hloc.x  
+ Min.   :  1   Min.   : 0.000   Min.   : 0.000   Min.   :-0.8400  
+ 1st Qu.:  3   1st Qu.: 4.450   1st Qu.: 4.825   1st Qu.: 0.0450  
+ Median :  4   Median : 6.100   Median : 6.120   Median : 0.2000  
+ Mean   :Inf   Mean   : 5.886   Mean   : 5.874   Mean   : 0.1826  
+ 3rd Qu.:  5   3rd Qu.: 7.075   3rd Qu.: 7.150   3rd Qu.: 0.3500  
+ Max.   :Inf   Max.   :50.000   Max.   :25.000   Max.   : 0.7000  
+                                                                  
+ Fourseam.hloc.y   Fourseam.maxmph.x Fourseam.maxmph.y Fourseam.mph.x 
+ Min.   :-0.4300   Min.   :  0.00    Min.   :  0.00    Min.   : 0.00  
+ 1st Qu.: 0.1000   1st Qu.: 93.27    1st Qu.: 93.61    1st Qu.:90.27  
+ Median : 0.2300   Median : 95.70    Median : 95.87    Median :92.38  
+ Mean   : 0.2249   Mean   : 88.11    Mean   : 90.13    Mean   :85.33  
+ 3rd Qu.: 0.3500   3rd Qu.: 97.35    3rd Qu.: 97.58    3rd Qu.:94.29  
+ Max.   : 0.9700   Max.   :104.28    Max.   :105.81    Max.   :98.96  
+                                                                      
+ Fourseam.mph.y   Fourseam.pfx_x.x Fourseam.pfx_x.y  Fourseam.pfx_z.x
+ Min.   :  0.00   Min.   :-9.270   Min.   :-10.240   Min.   : 0.000  
+ 1st Qu.: 90.61   1st Qu.:-5.450   1st Qu.: -5.625   1st Qu.: 7.730  
+ Median : 92.60   Median :-2.830   Median : -3.130   Median : 8.950  
+ Mean   : 87.18   Mean   :-1.395   Mean   : -1.424   Mean   : 8.292  
+ 3rd Qu.: 94.36   3rd Qu.: 3.090   3rd Qu.:  3.215   3rd Qu.: 9.965  
+ Max.   :100.56   Max.   :12.430   Max.   : 10.340   Max.   :12.210  
+                                                                     
+ Fourseam.pfx_z.y Fourseam.vloc.x  Fourseam.vloc.y      Fourseam.x    
+ Min.   : 0.000   Min.   :-0.860   Min.   :-0.54000   Min.   :   0.0  
+ 1st Qu.: 8.110   1st Qu.:-0.075   1st Qu.:-0.07000   1st Qu.:  74.0  
+ Median : 9.000   Median : 0.030   Median : 0.03000   Median : 242.0  
+ Mean   : 8.505   Mean   : 0.062   Mean   : 0.06149   Mean   : 395.8  
+ 3rd Qu.:10.065   3rd Qu.: 0.200   3rd Qu.: 0.18000   3rd Qu.: 534.0  
+ Max.   :12.460   Max.   : 1.400   Max.   : 3.32000   Max.   :2238.0  
+                                                                      
+   Fourseam.y         HBP.x            HBP.y             HR.x       
+ Min.   :   0.0   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 127.5   1st Qu.: 0.000   1st Qu.: 1.000   1st Qu.: 2.000  
+ Median : 343.0   Median : 2.000   Median : 2.000   Median : 4.000  
+ Mean   : 485.0   Mean   : 2.512   Mean   : 2.767   Mean   : 6.967  
+ 3rd Qu.: 713.0   3rd Qu.: 4.000   3rd Qu.: 4.000   3rd Qu.:10.000  
+ Max.   :2223.0   Max.   :19.000   Max.   :15.000   Max.   :35.000  
+                                                                    
+      HR.y           IPouts.x        IPouts.y         key_bbref  
+ Min.   : 0.000   Min.   :  1.0   Min.   :  0.0   bowdemi01:  2  
+ 1st Qu.: 2.000   1st Qu.: 61.5   1st Qu.: 87.5   carpeda01:  2  
+ Median : 6.000   Median :142.0   Median :179.0   eovalna01:  2  
+ Mean   : 8.019   Mean   :202.6   Mean   :237.0   feldmsc01:  2  
+ 3rd Qu.:11.500   3rd Qu.:284.5   3rd Qu.:387.0   hugheph01:  2  
+ Max.   :32.000   Max.   :698.0   Max.   :666.0   lopezja02:  2  
+                                                  (Other)  :203  
+ Knuckler.bway.x   Knuckler.bway.y   Knuckler.hloc.x    
+ Min.   :0.00000   Min.   :0.00000   Min.   :-0.710000  
+ 1st Qu.:0.00000   1st Qu.:0.00000   1st Qu.: 0.000000  
+ Median :0.00000   Median :0.00000   Median : 0.000000  
+ Mean   :0.02698   Mean   :0.03856   Mean   :-0.001953  
+ 3rd Qu.:0.00000   3rd Qu.:0.00000   3rd Qu.: 0.000000  
+ Max.   :5.80000   Max.   :8.29000   Max.   : 0.290000  
+                                                        
+ Knuckler.hloc.y    Knuckler.maxmph.x Knuckler.maxmph.y
+ Min.   :0.000000   Min.   : 0.0000   Min.   : 0.0000  
+ 1st Qu.:0.000000   1st Qu.: 0.0000   1st Qu.: 0.0000  
+ Median :0.000000   Median : 0.0000   Median : 0.0000  
+ Mean   :0.007488   Mean   : 0.6777   Mean   : 0.8042  
+ 3rd Qu.:0.000000   3rd Qu.: 0.0000   3rd Qu.: 0.0000  
+ Max.   :1.310000   Max.   :79.4400   Max.   :87.0500  
+                                                       
+ Knuckler.mph.x    Knuckler.mph.y    Knuckler.pfx_x.x 
+ Min.   : 0.0000   Min.   : 0.0000   Min.   :0.00000  
+ 1st Qu.: 0.0000   1st Qu.: 0.0000   1st Qu.:0.00000  
+ Median : 0.0000   Median : 0.0000   Median :0.00000  
+ Mean   : 0.6541   Mean   : 0.7448   Mean   :0.01251  
+ 3rd Qu.: 0.0000   3rd Qu.: 0.0000   3rd Qu.:0.00000  
+ Max.   :74.3500   Max.   :83.4100   Max.   :2.06000  
+                                                      
+ Knuckler.pfx_x.y   Knuckler.pfx_z.x    Knuckler.pfx_z.y 
+ Min.   :-0.46000   Min.   :-2.100000   Min.   :0.00000  
+ 1st Qu.: 0.00000   1st Qu.: 0.000000   1st Qu.:0.00000  
+ Median : 0.00000   Median : 0.000000   Median :0.00000  
+ Mean   : 0.02488   Mean   :-0.008279   Mean   :0.01707  
+ 3rd Qu.: 0.00000   3rd Qu.: 0.000000   3rd Qu.:0.00000  
+ Max.   : 5.81000   Max.   : 0.320000   Max.   :3.42000  
+                                                         
+ Knuckler.vloc.x    Knuckler.vloc.y       Knuckler.x     
+ Min.   :0.000000   Min.   :-1.140000   Min.   :  0.000  
+ 1st Qu.:0.000000   1st Qu.: 0.000000   1st Qu.:  0.000  
+ Median :0.000000   Median : 0.000000   Median :  0.000  
+ Mean   :0.008326   Mean   :-0.003302   Mean   :  1.367  
+ 3rd Qu.:0.000000   3rd Qu.: 0.000000   3rd Qu.:  0.000  
+ Max.   :1.720000   Max.   : 0.430000   Max.   :293.000  
+                                                         
+   Knuckler.y          mlbam_id       prev_yearID   Sinker.bway.x   
+ Min.   :  0.0000   Min.   :120485   Min.   :2010   Min.   : 0.000  
+ 1st Qu.:  0.0000   1st Qu.:445176   1st Qu.:2011   1st Qu.: 0.000  
+ Median :  0.0000   Median :461833   Median :2012   Median : 4.000  
+ Mean   :  0.9721   Mean   :468080   Mean   :2012   Mean   : 3.586  
+ 3rd Qu.:  0.0000   3rd Qu.:503832   3rd Qu.:2013   3rd Qu.: 5.610  
+ Max.   :205.0000   Max.   :607374   Max.   :2014   Max.   :13.010  
+                                                                    
+ Sinker.bway.y    Sinker.hloc.x     Sinker.hloc.y     Sinker.maxmph.x 
+ Min.   : 0.000   Min.   :-1.6700   Min.   :-0.2900   Min.   :  0.00  
+ 1st Qu.: 0.000   1st Qu.: 0.0000   1st Qu.: 0.0000   1st Qu.: 90.38  
+ Median : 4.000   Median : 0.2400   Median : 0.2400   Median : 93.89  
+ Mean   : 3.911   Mean   : 0.2504   Mean   : 0.2671   Mean   : 75.33  
+ 3rd Qu.: 5.735   3rd Qu.: 0.3900   3rd Qu.: 0.4000   3rd Qu.: 96.10  
+ Max.   :26.320   Max.   : 2.2500   Max.   : 1.7300   Max.   :101.92  
+                                                                      
+ Sinker.maxmph.y   Sinker.mph.x    Sinker.mph.y   Sinker.pfx_x.x   
+ Min.   :  0.00   Min.   : 0.00   Min.   : 0.00   Min.   :-11.640  
+ 1st Qu.: 90.83   1st Qu.:87.38   1st Qu.:87.97   1st Qu.: -8.450  
+ Median : 94.23   Median :90.85   Median :91.02   Median : -6.490  
+ Mean   : 75.95   Mean   :72.94   Mean   :73.52   Mean   : -2.265  
+ 3rd Qu.: 96.25   3rd Qu.:93.00   3rd Qu.:93.34   3rd Qu.:  0.000  
+ Max.   :102.47   Max.   :98.32   Max.   :98.71   Max.   : 12.470  
+                                                                   
+ Sinker.pfx_x.y    Sinker.pfx_z.x   Sinker.pfx_z.y   Sinker.vloc.x    
+ Min.   :-11.470   Min.   :-4.400   Min.   :-2.930   Min.   :-2.3400  
+ 1st Qu.: -8.205   1st Qu.: 2.165   1st Qu.: 2.305   1st Qu.:-0.4400  
+ Median : -6.230   Median : 5.300   Median : 5.760   Median :-0.2600  
+ Mean   : -2.087   Mean   : 4.603   Mean   : 4.802   Mean   :-0.2552  
+ 3rd Qu.:  6.950   3rd Qu.: 6.910   3rd Qu.: 6.940   3rd Qu.: 0.0000  
+ Max.   : 11.560   Max.   :11.510   Max.   :11.290   Max.   : 1.3400  
+                                                                      
+ Sinker.vloc.y        Sinker.x         Sinker.y      Slider.bway.x   
+ Min.   :-2.0200   Min.   :   0.0   Min.   :   0.0   Min.   : 0.000  
+ 1st Qu.:-0.4200   1st Qu.:  14.0   1st Qu.:   9.5   1st Qu.: 0.000  
+ Median :-0.2300   Median : 117.0   Median : 135.0   Median : 3.570  
+ Mean   :-0.2478   Mean   : 251.0   Mean   : 284.2   Mean   : 3.619  
+ 3rd Qu.: 0.0000   3rd Qu.: 335.5   3rd Qu.: 406.0   3rd Qu.: 5.775  
+ Max.   : 0.4600   Max.   :1834.0   Max.   :1677.0   Max.   :18.180  
+                                                                     
+ Slider.bway.y     Slider.hloc.x     Slider.hloc.y     Slider.maxmph.x
+ Min.   :  0.000   Min.   :-0.1700   Min.   :-0.2900   Min.   : 0.00  
+ 1st Qu.:  0.000   1st Qu.: 0.0000   1st Qu.: 0.0000   1st Qu.:79.04  
+ Median :  4.170   Median : 0.2900   Median : 0.3000   Median :86.01  
+ Mean   :  4.421   Mean   : 0.2917   Mean   : 0.2905   Mean   :65.95  
+ 3rd Qu.:  5.920   3rd Qu.: 0.4750   3rd Qu.: 0.4600   3rd Qu.:89.42  
+ Max.   :100.000   Max.   : 1.4300   Max.   : 1.8200   Max.   :95.46  
+                                                                      
+ Slider.maxmph.y  Slider.mph.x    Slider.mph.y   Slider.pfx_x.x  
+ Min.   : 0.00   Min.   : 0.00   Min.   : 0.00   Min.   :-7.580  
+ 1st Qu.:82.23   1st Qu.:77.40   1st Qu.:79.00   1st Qu.: 0.000  
+ Median :86.81   Median :82.76   Median :83.09   Median : 0.740  
+ Mean   :67.56   Mean   :63.30   Mean   :64.59   Mean   : 1.236  
+ 3rd Qu.:89.80   3rd Qu.:85.89   3rd Qu.:85.61   3rd Qu.: 2.780  
+ Max.   :94.09   Max.   :90.86   Max.   :89.79   Max.   : 9.810  
+                                                                 
+ Slider.pfx_x.y   Slider.pfx_z.x   Slider.pfx_z.y    Slider.vloc.x    
+ Min.   :-6.890   Min.   :-6.180   Min.   :-5.0400   Min.   :-1.5500  
+ 1st Qu.: 0.000   1st Qu.:-0.010   1st Qu.: 0.0000   1st Qu.:-0.8900  
+ Median : 0.790   Median : 0.020   Median : 0.2700   Median :-0.6400  
+ Mean   : 1.308   Mean   : 0.634   Mean   : 0.7193   Mean   :-0.5615  
+ 3rd Qu.: 2.805   3rd Qu.: 1.995   3rd Qu.: 1.9900   3rd Qu.: 0.0000  
+ Max.   : 9.500   Max.   : 6.200   Max.   : 7.5100   Max.   : 1.1800  
+                                                                      
+ Slider.vloc.y        Slider.x         Slider.y     Slow.Curve.bway.x
+ Min.   :-1.6100   Min.   :   0.0   Min.   :  0.0   Min.   :0        
+ 1st Qu.:-0.8800   1st Qu.:   1.5   1st Qu.:  6.5   1st Qu.:0        
+ Median :-0.6300   Median :  81.0   Median :104.0   Median :0        
+ Mean   :-0.5515   Mean   : 164.8   Mean   :185.2   Mean   :0        
+ 3rd Qu.:-0.0200   3rd Qu.: 243.5   3rd Qu.:273.5   3rd Qu.:0        
+ Max.   : 0.2600   Max.   :1006.0   Max.   :871.0   Max.   :0        
+                                                                     
+ Slow.Curve.bway.y  Slow.Curve.hloc.x Slow.Curve.hloc.y 
+ Min.   : 0.00000   Min.   :0.00000   Min.   :-0.25000  
+ 1st Qu.: 0.00000   1st Qu.:0.00000   1st Qu.: 0.00000  
+ Median : 0.00000   Median :0.00000   Median : 0.00000  
+ Mean   : 0.05684   Mean   :0.02163   Mean   : 0.01014  
+ 3rd Qu.: 0.00000   3rd Qu.:0.00000   3rd Qu.: 0.00000  
+ Max.   :10.53000   Max.   :1.82000   Max.   : 1.45000  
+                                                        
+ Slow.Curve.maxmph.x Slow.Curve.maxmph.y Slow.Curve.mph.x
+ Min.   : 0.000      Min.   : 0.000      Min.   : 0.000  
+ 1st Qu.: 0.000      1st Qu.: 0.000      1st Qu.: 0.000  
+ Median : 0.000      Median : 0.000      Median : 0.000  
+ Mean   : 1.339      Mean   : 1.604      Mean   : 1.307  
+ 3rd Qu.: 0.000      3rd Qu.: 0.000      3rd Qu.: 0.000  
+ Max.   :76.290      Max.   :73.370      Max.   :73.850  
+                                                         
+ Slow.Curve.mph.y Slow.Curve.pfx_x.x Slow.Curve.pfx_x.y
+ Min.   : 0.000   Min.   :-2.7300    Min.   :-3.87000  
+ 1st Qu.: 0.000   1st Qu.: 0.0000    1st Qu.: 0.00000  
+ Median : 0.000   Median : 0.0000    Median : 0.00000  
+ Mean   : 1.529   Mean   : 0.1079    Mean   : 0.08907  
+ 3rd Qu.: 0.000   3rd Qu.: 0.0000    3rd Qu.: 0.00000  
+ Max.   :70.440   Max.   :12.2900    Max.   :11.48000  
+                                                       
+ Slow.Curve.pfx_z.x Slow.Curve.pfx_z.y Slow.Curve.vloc.x 
+ Min.   :-9.430     Min.   :-10.2300   Min.   :-1.31000  
+ 1st Qu.: 0.000     1st Qu.:  0.0000   1st Qu.: 0.00000  
+ Median : 0.000     Median :  0.0000   Median : 0.00000  
+ Mean   :-0.141     Mean   : -0.1463   Mean   :-0.01358  
+ 3rd Qu.: 0.000     3rd Qu.:  0.0000   3rd Qu.: 0.00000  
+ Max.   : 0.000     Max.   :  0.0000   Max.   : 0.00000  
+                                                         
+ Slow.Curve.vloc.y    Slow.Curve.x      Slow.Curve.y    
+ Min.   :-0.750000   Min.   : 0.0000   Min.   : 0.0000  
+ 1st Qu.: 0.000000   1st Qu.: 0.0000   1st Qu.: 0.0000  
+ Median : 0.000000   Median : 0.0000   Median : 0.0000  
+ Mean   :-0.006465   Mean   : 0.1488   Mean   : 0.3907  
+ 3rd Qu.: 0.000000   3rd Qu.: 0.0000   3rd Qu.: 0.0000  
+ Max.   : 0.800000   Max.   :19.0000   Max.   :59.0000  
+                                                        
+      SO.x             SO.y         Split.bway.x     Split.bway.y   
+ Min.   :  0.00   Min.   :  0.00   Min.   :0.0000   Min.   : 0.000  
+ 1st Qu.: 18.00   1st Qu.: 24.00   1st Qu.:0.0000   1st Qu.: 0.000  
+ Median : 39.00   Median : 52.00   Median :0.0000   Median : 0.000  
+ Mean   : 57.05   Mean   : 65.17   Mean   :0.3978   Mean   : 0.473  
+ 3rd Qu.: 79.00   3rd Qu.: 92.00   3rd Qu.:0.0000   3rd Qu.: 0.000  
+ Max.   :301.00   Max.   :242.00   Max.   :7.6900   Max.   :11.540  
+                                                                    
+  Split.hloc.x       Split.hloc.y    Split.maxmph.x  Split.maxmph.y 
+ Min.   :-0.29000   Min.   :0.0000   Min.   : 0.00   Min.   : 0.00  
+ 1st Qu.: 0.00000   1st Qu.:0.0000   1st Qu.: 0.00   1st Qu.: 0.00  
+ Median : 0.00000   Median :0.0000   Median : 0.00   Median : 0.00  
+ Mean   : 0.07823   Mean   :0.0746   Mean   :13.93   Mean   :12.75  
+ 3rd Qu.: 0.00000   3rd Qu.:0.0000   3rd Qu.: 0.00   3rd Qu.: 0.00  
+ Max.   : 1.03000   Max.   :1.4400   Max.   :91.62   Max.   :93.62  
+                                                                    
+  Split.mph.x     Split.mph.y    Split.pfx_x.x      Split.pfx_x.y    
+ Min.   : 0.00   Min.   : 0.00   Min.   :-10.8100   Min.   :-9.6700  
+ 1st Qu.: 0.00   1st Qu.: 0.00   1st Qu.:  0.0000   1st Qu.: 0.0000  
+ Median : 0.00   Median : 0.00   Median :  0.0000   Median : 0.0000  
+ Mean   :13.47   Mean   :12.28   Mean   : -0.5696   Mean   :-0.4734  
+ 3rd Qu.: 0.00   3rd Qu.: 0.00   3rd Qu.:  0.0000   3rd Qu.: 0.0000  
+ Max.   :90.41   Max.   :90.87   Max.   : 11.4300   Max.   :10.8500  
+                                                                     
+ Split.pfx_z.x     Split.pfx_z.y      Split.vloc.x    
+ Min.   :-1.5700   Min.   :-1.6200   Min.   :-1.9300  
+ 1st Qu.: 0.0000   1st Qu.: 0.0000   1st Qu.: 0.0000  
+ Median : 0.0000   Median : 0.0000   Median : 0.0000  
+ Mean   : 0.5531   Mean   : 0.5049   Mean   :-0.1599  
+ 3rd Qu.: 0.0000   3rd Qu.: 0.0000   3rd Qu.: 0.0000  
+ Max.   : 8.1700   Max.   : 7.7100   Max.   : 0.0200  
+                                                      
+  Split.vloc.y        Split.x          Split.y           yearID    
+ Min.   :-1.6400   Min.   :  0.00   Min.   :  0.00   Min.   :2011  
+ 1st Qu.: 0.0000   1st Qu.:  0.00   1st Qu.:  0.00   1st Qu.:2012  
+ Median : 0.0000   Median :  0.00   Median :  0.00   Median :2013  
+ Mean   :-0.1349   Mean   : 20.66   Mean   : 22.65   Mean   :2013  
+ 3rd Qu.: 0.0000   3rd Qu.:  0.00   3rd Qu.:  0.00   3rd Qu.:2014  
+ Max.   : 0.2900   Max.   :677.00   Max.   :645.00   Max.   :2015  
+                                                                   
+   tjs_label     
+ Min.   :0.0000  
+ 1st Qu.:0.0000  
+ Median :0.0000  
+ Mean   :0.2465  
+ 3rd Qu.:0.0000  
+ Max.   :1.0000  
+                 

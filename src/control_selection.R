@@ -1,5 +1,5 @@
 library(plyr)
-
+library(magrittr)
 
 control_stats_merged <- read.csv('data/control_merged.csv')
 tjs_stats_merged <-  read.csv('data/tjs_merged.csv')
@@ -21,8 +21,11 @@ for(i in 2:length(years)){
   intersect_y = intersect(curr_y, prev_y)
 
   tmp <- subset(control_stats_merged[c("mlbam_id", "yearID")], yearID==years[i] & mlbam_id %in% intersect_y)
-
+  
+  tmp <- tmp %>% na.omit
+  
   tmp <- tmp[sample(1:nrow(tmp), length(subset(tjplyrs, index_year==years[i])$index_year),replace=FALSE),]
+
   control_players[[paste(years[i])]] <- tmp
 
 }
@@ -65,7 +68,7 @@ df <- df[ , !(names(df) %in% screw_list)]
 df <- df[ , order(names(df))]
 df$tjs_label <- 0
 
-write.csv(df,  "data/control_54_examples_1.csv",
+write.csv(df,  "data/control_53_examples_1.csv",
           quote = F, row.names = F, col.names = T, sep=",")
 
 
@@ -95,5 +98,5 @@ tjplyrs <- rename(tjplyrs, c("index_year"="yearID"))
 tjplyrs <- tjplyrs[ , order(names(tjplyrs))]
 tjplyrs$tjs_label <- 1
 
-write.csv(df,  "data/tjs_data_fin.csv",
+write.csv(tjplyrs,  "data/tjs_data_fin.csv",
           quote = F, row.names = F, col.names = T, sep=",")
