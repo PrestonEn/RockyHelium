@@ -55,14 +55,29 @@ tjspf <- merge(x = tjplyrs,
              by ='playerID',
              all.y = T)
 
+
+
+index_years <- subset(index_years, index_year < 2016)
+
 tjspf <- merge(x = tjspf,
                y = index_years[c('key_mlbam', 'index_year')],
                by.x ='mlbam_id',
                by.y = 'key_mlbam',
                all.x = T)
 
+
 tjspf$ind_diff <- tjspf$index_year - tjspf$yearID
+
 tjspf <- subset(tjspf, ind_diff < 2)
+
+zero_year <- subset(tjspf, ind_diff == 0)
+zero_year <- zero_year[c('playerID')]
+
+tjspf <- merge(x = tjspf,
+               y =zero_year,
+               by.x ='playerID',
+               by.y = 'playerID',
+               all.y = T)
 
 write.table(cpf, "data/control_pitchers_2_cons.csv",
             append = F, quote = F, row.names = F, col.names = T, sep=",")
