@@ -1,0 +1,33 @@
+
+Call:  glm(formula = tjs_label ~ . - mlbam_id - yearID - tjs_label, 
+    family = binomial("logit"), data = train.batch)
+
+Coefficients:
+      (Intercept)      Cutter.bway.x      Cutter.bway.y  
+       -2.0041943          0.0866044          0.0712253  
+    Cutter.hloc.x      Cutter.hloc.y    Cutter.maxmph.x  
+       -0.3210279          0.5872536          0.2922283  
+  Cutter.maxmph.y       Cutter.mph.x       Cutter.mph.y  
+       -0.0484377         -0.2977952          0.0323145  
+   Cutter.pfx_x.x     Cutter.pfx_x.y     Cutter.pfx_z.x  
+        0.0773855         -0.7070492         -0.1836076  
+   Cutter.pfx_z.y      Cutter.vloc.x      Cutter.vloc.y  
+        0.0883474         -0.2753553         -1.7686464  
+         Cutter.x           Cutter.y              FIP.x  
+       -0.0014872         -0.0003055         -0.1804069  
+            FIP.y    Fourseam.bway.x    Fourseam.bway.y  
+        0.2594955         -0.0452283         -0.0973278  
+  Fourseam.hloc.x    Fourseam.hloc.y  Fourseam.maxmph.x  
+       -0.9694262         -0.3350039          0.0504431  
+Fourseam.maxmph.y     Fourseam.mph.x     Fourseam.mph.y  
+       -0.5059690         -0.0719101          0.5270315  
+ Fourseam.pfx_x.x   Fourseam.pfx_x.y   Fourseam.pfx_z.x  
+       -0.1382939         -0.0518828         -0.0620036  
+ Fourseam.pfx_z.y    Fourseam.vloc.x    Fourseam.vloc.y  
+        0.2736281          0.4672917         -2.0156496  
+       Fourseam.x         Fourseam.y  
+       -0.0042292          0.0039955  
+
+Degrees of Freedom: 215 Total (i.e. Null);  181 Residual
+Null Deviance:	    212.8 
+Residual Deviance: 146.3 	AIC: 216.3

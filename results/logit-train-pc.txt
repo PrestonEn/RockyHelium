@@ -1,0 +1,11 @@
+
+Call:  glm(formula = tjs_label ~ Cutter.y + Fourseam.y, family = binomial("logit"), 
+    data = train.batch)
+
+Coefficients:
+(Intercept)     Cutter.y   Fourseam.y  
+ -1.7474927   -0.0012725    0.0007355  
+
+Degrees of Freedom: 215 Total (i.e. Null);  213 Residual
+Null Deviance:	    212.8 
+Residual Deviance: 206.6 	AIC: 212.6
