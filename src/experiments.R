@@ -1,6 +1,8 @@
 library(dplyr)
 library(magrittr)
 library(caret)
+library(randomForest)
+
 tjs <- na.omit(tbl_df(read.csv("data/tjs_data_fin.csv")))
 control.53 <- tbl_df(read.csv("data/control_53_examples_1.csv"))
 control.106 <- tbl_df(read.csv("data/control_106_examples_1.csv"))
@@ -13,7 +15,7 @@ rset.106 <- rbind(tjs, control.106)
 rset.159 <- rbind(tjs, control.159)
 rset.212 <- rbind(tjs, control.212)
 # shuffle
-rset.53 <- rset.54[sample(1:nrow(rset.53)), ]
+rset.53 <- rset.53[sample(1:nrow(rset.53)), ]
 rset.106 <- rset.106[sample(1:nrow(rset.106)), ]
 rset.159 <- rset.159[sample(1:nrow(rset.159)), ]
 rset.212 <- rset.212[sample(1:nrow(rset.212)), ]
@@ -50,5 +52,34 @@ summary(pca) %>%
 set.seed(313)
 training.rows <- createDataPartition(rset.53$tjs_label, 
                                      p = 0.8, list = FALSE)
-train.batch <- df.train.munged[training.rows, ]
-test.batch <- df.train.munged[-training.rows, ]
+train.batch <- rset.53[training.rows, ]
+test.batch <- rset.53[-training.rows, ]
+
+# logistic regression
+TJS.logit <- glm(tjs_label~.-key_bbref -mlbam_id -prev_yearID -yearID, data = train.batch, family= binomial("logit"))
+# print to file
+TJS.logit %>%
+  capture.output(file = "results/logit.txt")
+
+# chi-sq test
+TJS.chisq <- anova(TJS.logit, test="Chisq")
+# print to file
+TJS.chisq %>%
+  capture.output(file = "results/chi-sq.txt")
+
+# not features
+extractFeatures <- function(data) {
+  fea <- data[,!names(data) %in% c("key_bbref","mlbam_id","prev_yearID", "yearID", "tjs_label")]
+  return(fea)
+}
+
+#Run RandomForest Algorithm
+rf <- randomForest(extractFeatures(train.batch), as.factor(train.batch$tjs_label), ntree=100, importance=TRUE)
+# summarize details
+result <- data.frame(mlbam_id = test.batch$mlbam_id)
+result$prediction <- predict(rf, extractFeatures(test.batch))
+compare_results<-cbind(result,test.batch$tjs_label)
+# create confusion matrix
+confusionMatrix(test.batch$tjs_label,result$prediction) %>%
+  capture.output(file = "results/conf_matrix_rf.txt")
+
