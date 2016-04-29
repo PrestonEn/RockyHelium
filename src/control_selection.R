@@ -1,3 +1,6 @@
+library(plyr)
+
+
 control_stats_merged <- read.csv('data/control_merged.csv')
 tjs_stats_merged <-  read.csv('data/tjs_merged.csv')
 cplyrs <- read.csv("data/control_pitchers_2_cons.csv")
@@ -50,6 +53,17 @@ df <- merge(x = df,
             by.y = c('mlbam_id', 'yearID'),
             all.x = TRUE)
 
+# no tjs player has screwballs, drop any occurence
+screw_list <- c("Screwball.bway.x", "Screwball.bway.y", "Screwball.hloc.x",
+               "Screwball.hloc.y", "Screwball.maxmph.x", "Screwball.maxmph.y",
+               "Screwball.mph.x", "Screwball.mph.y", "Screwball.pfx_x.x",
+               "Screwball.pfx_x.y", "Screwball.pfx_z.x", "Screwball.pfx_z.y",
+               "Screwball.vloc.x", "Screwball.vloc.y", "Screwball.x", "Screwball.y")
+
+
+df <- df[ , !(names(df) %in% screw_list)]
+df <- df[ , order(names(df))]
+df$tjs_label <- 0
 
 write.csv(df,  "data/control_216_examples_1.csv",
           quote = F, row.names = F, col.names = T, sep=",")
@@ -57,6 +71,11 @@ write.csv(df,  "data/control_216_examples_1.csv",
 
 tjplyrs$prev_yearID <- tjplyrs$index_year-1
 
+tjplyrs <- merge(x = tjplyrs,
+                 y = people,
+                 by.x = 'mlbam_id',
+                 by.y = 'key_mlbam',
+                 all.x = TRUE)
 
 tjplyrs <- merge(x = tjplyrs,
                  y = tjs_stats_merged,
@@ -70,5 +89,11 @@ tjplyrs <- merge(x = tjplyrs,
                  by.y = c('mlbam_id', 'yearID'),
                  all.x = TRUE)
 
+# keep same naming convention as control
 
+tjplyrs <- rename(tjplyrs, c("index_year"="yearID"))
+tjplyrs <- tjplyrs[ , order(names(tjplyrs))]
+tjplyrs$tjs_label <- 1
 
+write.csv(df,  "data/tjs_data_fin.csv",
+          quote = F, row.names = F, col.names = T, sep=",")
