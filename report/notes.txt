@@ -1,0 +1,77 @@
+\cite{Jiang2014}
+
+mean pitch velocity showed a small but significant decrease in the velocity of fastballs and change ups post injury \cite{Jiang2014}
+
+significant decrease was shown between year of injury and one year prior \cite{Jiang2014}
+
+no significant difference what found between groups \cite{Jiang2014}
+
+no statistical difference in common baseball statistics between cases and controls between injury year and one year prior \cite{Jiang2014}
+
+\cite{Keller2016}
+
+looked at whether MLB pitchers that undergo tommy john surgery have increased pitch velocity \cite{Keller2016}
+
+also sought to determine differences in pitch type frequency \cite{Keller2016}
+
+current estimates suggest upwards of 25% of MLB pitchers have required UCL reconstruction \cite{Keller2016}
+
+many risk factors have been speculated including mechanics, pitch type, fatigue, overuse, velocity, and medical issues \cite{Keller2016}
+
+biomechanical studies have suggested fastballs create more torque while offspeed pitches increase stresses \cite{Keller2016}
+
+no significant difference was observed in pitch velocity between groups. However, pitchers requiring TJS pitched a significantly higher percentage (7%)of fastballs than controls. This suggests that the number of fastballs thrown is a risk factor but not the velocity of the pitch itself. \cite{Keller2016}
+
+no statistical difference was found in percentage of other pitches \cite{Keller2016}
+
+no statistical difference was found in fastball velocity before or after TJS \cite{Keller2016}
+
+biomechanical studies have shown that moments of force on shoulder and elbow as well as valgus torque are higher for fastballs than other pitches \cite{Keller2016}
+
+\cite{Cain2010}
+
+mechanical stability of elbow provided by both bony and soft tissue restraints \cite{Cain2010}
+
+Pitching generates high valgus and extension forces across the elbow during late cocking and acceleration phases. These phases correspond to where the anterior bundle of UCL is the primary restraint to valgus stress at the elbow (20\degree to 120\degree flexion). During this motion it is thought the vagus load approaches the ultimate tensile strength of the UCL. It is therefore possible that a pitchers throwing elbow gradually leads to failure as a result of repeatedly being exposed to near-failure stresses \cite{Cain2010}
+
+injury to UCL often leads to symptomatic valgus instability and often requires surgical treatment \cite{Cain2010}
+
+96% of players complained of pain during the late cocking and acceleration phase of throwing \cite{Cain2010}
+
+diagnosis of UCL damage not made until average 6.4 months after symptoms began \cite{Cain2010}
+
+75.5% MLB returned to MLB play \cite{Cain2010}
+
+partial tearing of the UCL or attenuation is likely indistinguishable from normal elbow laxity on examination \cite{Cain2010}
+
+increases in performance after TJS are likely related to strength gains during rehabilitation, resolution of long-term symptoms that hindered performance, or technical/mechanical improvements \cite{Cain2010}
+
+\cite{Makhni2014}
+
+67% returned to play in MLB taking an average of 16.8 months to return \cite{Makhni2014}
+
+no significant difference was seen between starters and relievers, or between age groups \cite{Makhni2014}
+
+before surgery 74% of players went to DL because of injury to throwing arm and of these injuries 58% were elbow related. \cite{Makhni2014}
+
+after surgery 57% of players went to DL because of injury to throwing arm which 26% were an elbow injury. \cite{Makhni2014}
+
+90% of controls went to the DL for any reason related to throwing arm of which 51% were elbow related injuries. \cite{Makhni2014}
+
+there was no significant difference was found between groups for total number of trips to the DL for injuries related to the throwing arm. However, a higher number of of players requiring TJS went to DL specifically for elbow related injuries. \cite{Makhni2014}
+
+performance decreased in almost every category after pitchers underwent TJS surgery. \cite{Makhni2014}
+
+decreases were also observered in percentage of fastballs thrown and pitches in strike zone up to 2 years after surgery. \cite{Makhni2014}
+
+TJS pitchers showed improvments 2 years after when compared to one year before surgery. However, this could be a result of impaired performance leading up to injury. \cite{Makhni2014}
+
+\cite{Erickson2014}
+
+length of MLB career post surgery was an average 4 years \cite{Erickson2014}
+
+no significant difference was found in performance measures between cases and controls before index year \cite{Erickson2014}
+
+return to pitch rate was 83% for MLB pitchers \cite{Erickson2014}
+
+there are no data to support prophylactic UCL reconstruction to improve performance or prevent injuries \cite{Erickson2014}
