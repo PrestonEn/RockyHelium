@@ -95,4 +95,28 @@ A.~D. Gray and J.~L. Cook, ``{Return to Pitching After Tommy John Surgery:
 M.~Fast, ``{What the Heck is PITCHf/x?}'' \emph{The Hardball Times Baseball
   Annual 2010}, pp. 1--6, 2010.
 
+\bibitem{ChadwickBD}
+\BIBentryALTinterwordspacing
+Chadwick. (2016) {Baseball Databank}. [Online]. Available:
+  \url{https://github.com/chadwickbureau/baseballdatabank}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ChadwickR}
+\BIBentryALTinterwordspacing
+------. (2016) {Baseball Databank}. [Online]. Available:
+  \url{https://github.com/chadwickbureau/register}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Fangraphs}
+\BIBentryALTinterwordspacing
+FanGraphs. (2016) {wOBA and FIP Constants}. [Online]. Available:
+  \url{http://www.fangraphs.com/guts.aspx?type=cn}
+\BIBentrySTDinterwordspacing
+
+\bibitem{FangraphsFIP}
+\BIBentryALTinterwordspacing
+------. (2016) {FIP}. [Online]. Available:
+  \url{http://www.fangraphs.com/library/pitching/fip/}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
