@@ -14,7 +14,7 @@ FIPy & 4.23  & 1.68
 \end{tabular}
 \end{table}
 
-Table \ref{tbl:conf-matrix} shows a confusion matrix on the prediction of our random forest. An accuracy of 52.38\% was reported but this was mostly due to the model failing to predict anything as a TJS. The 95\% confidence intervals reported for this accuracy was 0.2978 to 0.7429. This large spread also shows the model was essentially unable to properly classify the data.
+Table \ref{tbl:conf-matrix} shows a confusion matrix on the prediction of our random forest. An accuracy of 52.38\% was reported but this was mostly due to the model failing to predict anything as a TJS. The 95\% confidence intervals reported for this accuracy was 29.78\% to 74.29\%. This large spread also shows the model was essentially unable to properly classify the data.
 
 \begin{table}[h]
 \centering
@@ -27,3 +27,19 @@ Prediction & 0             & 1             \\
 1          & 9             & 3
 \end{tabular}
 \end{table}
+
+Given that our data set was unable to provide any valid results we decided to run a random forest analysis on a small dataset previously collected and provided by RockFence LLC. The exact details of how the data were collected were not provided by the company, however verbal confirmation on previous results were provided. As per our conversation with their representative they advised that logistic regression also showed no significant results worth reporting but a random tree show some factors of interest albeit very minimal. As such we attempted to run a random forest on the same data set so we had some valuable data to present in this report.
+
+\begin{table}[h]
+\centering
+\caption{Confusion matrix for random forest conducted on RockFence LLC provided dataset}
+\label{tbl:rockfence}
+\begin{tabular}{lll}
+           & \multicolumn{2}{l}{Reference} \\
+Prediction & 0              & 1            \\
+0          & 124            & 5            \\
+1          & 46             & 16
+\end{tabular}
+\end{table}
+
+As seen in table \ref{tbl:rockfence} their model was also a poor predictor of TJS pitchers. This models accuracy was reported as 73.30\% with 95\% confidence intervals between 66.43\% and 79.43\%. The high number of correct classifications could be a result of more non TJS pitchers being in the dataset and thus classifying the majority of the pitchers as non TJS will appear to have a high accuracy.
