@@ -55,8 +55,7 @@ result <- data.frame(pitcher = test$pitcher)
 result$prediction <- predict(rf, extractFeatures(test))
 compare_results<-cbind(result,test$Before.TJ   )
 # create confusion matrix
-confusionMatrix(test$Before.TJ   ,result$prediction)
-%>%
+confusionMatrix(test$Before.TJ   ,result$prediction)%>%
   capture.output(file = "results/conf_matrix_rockfence_1.txt")
 
 
