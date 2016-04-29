@@ -1,0 +1,7 @@
+\section{Experiments}
+
+Data was split into testing and training data with a 80/20 hold-out. Equal numbers of TJS and control pitchers were used in the initial dataset before splitting. To analyze the data we conducted a logistic regression using the glm function in RStudio 0.99.893. We also ran a random forest on our data using the Random Forest package 4.6-12. Our choice for random forest modelling was based on previous work done by RockFence LLC. They had limited results so we wished to see if we could replicate their work on our larger dataset.
+
+Our original goal of running the data through an artificial neural network could not be done due to the curse of dimensionality with 156 input variables and not enough available data. In an attempt to reduce the dimensionality we conducted a principal compentent analysis using the prcomp function, however no real advantage was found and we decided to abandon conducting a neural network experiment. As such further investigation needs to be done limit the number of variables used in order to investigate this problem with a neural network.
+
+Given no useful results could be found given such a large number of variables we decided to reduce the dimensions to solely focus on FIP score and 2 pitch types, Cutter and Fastballs. This smaller number of variables was run through the logistic regression and random forest in an attempt to obtain useful results.
