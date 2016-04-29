@@ -1,8 +1,11 @@
 control_stats_merged <- read.csv('data/control_merged.csv')
+tjs_stats_merged <-  read.csv('data/tjs_merged.csv')
 cplyrs <- read.csv("data/control_pitchers_2_cons.csv")
 tjplyrs <- read.csv("data/tjs_pitchers_2_cons.csv")
 tjplyrs <- unique(tjplyrs[c('mlbam_id', 'index_year')])
-people <- read.csv("data/people.csv")
+people <- read.csv("data/people_filtered.csv")
+
+set.seed(693)
 
 years <- sort(unique(control_stats_merged$yearID))
 
@@ -16,7 +19,7 @@ for(i in 2:length(years)){
 
   tmp <- subset(control_stats_merged[c("mlbam_id", "yearID")], yearID==years[i] & mlbam_id %in% intersect_y)
 
-  tmp <- tmp[sample(1:nrow(tmp), length(subset(tjplyrs, index_year==years[i])$index_year),replace=FALSE),]
+  tmp <- tmp[sample(1:nrow(tmp), 4 * length(subset(tjplyrs, index_year==years[i])$index_year),replace=FALSE),]
   control_players[[paste(years[i])]] <- tmp
 
 }
@@ -24,3 +27,48 @@ for(i in 2:length(years)){
 control_play <- do.call(rbind, control_players)
 
 rownames(control_play) <- NULL
+
+df <- merge(x = control_play,
+            y = people,
+            by.x = 'mlbam_id',
+            by.y = 'key_mlbam',
+            all.x = TRUE)
+
+df$prev_yearID <- df$yearID-1
+
+
+df <- merge(x = df,
+            y = control_stats_merged,
+            by.x = c('mlbam_id', 'yearID'),
+            by.y = c('mlbam_id', 'yearID'),
+            all.x = TRUE)
+
+
+df <- merge(x = df,
+            y = control_stats_merged,
+            by.x = c('mlbam_id', 'prev_yearID'),
+            by.y = c('mlbam_id', 'yearID'),
+            all.x = TRUE)
+
+
+write.csv(df,  "data/control_216_examples_1.csv",
+          quote = F, row.names = F, col.names = T, sep=",")
+
+
+tjplyrs$prev_yearID <- tjplyrs$index_year-1
+
+
+tjplyrs <- merge(x = tjplyrs,
+                 y = tjs_stats_merged,
+                 by.x = c('mlbam_id', 'index_year'),
+                 by.y = c('mlbam_id', 'yearID'),
+                 all.x = TRUE)
+
+tjplyrs <- merge(x = tjplyrs,
+                 y = tjs_stats_merged,
+                 by.x = c('mlbam_id', 'prev_yearID'),
+                 by.y = c('mlbam_id', 'yearID'),
+                 all.x = TRUE)
+
+
+
