@@ -3,113 +3,165 @@ Call:  glm(formula = tjs_label ~ . - key_bbref - mlbam_id - prev_yearID -
     yearID, family = binomial("logit"), data = train.batch)
 
 Coefficients:
-        (Intercept)                 BB.x                 BB.y  
-         -2.960e+03            3.627e+00            8.577e-02  
-         birth_year        Change.bway.x        Change.bway.y  
-          1.420e+00            1.118e+01           -1.430e+01  
-      Change.hloc.x        Change.hloc.y      Change.maxmph.x  
-          1.143e+02           -1.092e+02            9.524e+00  
-    Change.maxmph.y         Change.mph.x         Change.mph.y  
-         -1.405e+01           -1.155e+01            1.694e+01  
-     Change.pfx_x.x       Change.pfx_x.y       Change.pfx_z.x  
-         -1.401e+01            1.813e+00            8.936e+00  
-     Change.pfx_z.y        Change.vloc.x        Change.vloc.y  
-         -1.304e+01            7.302e+01            2.566e+01  
-           Change.x             Change.y         Curve.bway.x  
-          6.640e-01           -1.124e-01           -2.042e+01  
-       Curve.bway.y         Curve.hloc.x         Curve.hloc.y  
-         -4.726e+00            1.420e+02            6.325e+01  
-     Curve.maxmph.x       Curve.maxmph.y          Curve.mph.x  
-         -2.176e+01           -1.674e+01            2.244e+01  
-        Curve.mph.y        Curve.pfx_x.x        Curve.pfx_x.y  
-          1.409e+01           -1.790e+01            7.689e+00  
-      Curve.pfx_z.x        Curve.pfx_z.y         Curve.vloc.x  
-         -1.165e+01           -1.021e+01            3.326e+01  
-       Curve.vloc.y              Curve.x              Curve.y  
-         -1.643e+02            3.739e-01            1.678e-01  
-      Cutter.bway.x        Cutter.bway.y        Cutter.hloc.x  
-          3.073e+01            5.521e+00            4.923e+00  
-      Cutter.hloc.y      Cutter.maxmph.x      Cutter.maxmph.y  
-          7.699e+01            3.423e+01            5.899e+01  
-       Cutter.mph.x         Cutter.mph.y       Cutter.pfx_x.x  
-         -3.644e+01           -6.280e+01           -2.261e+01  
-     Cutter.pfx_x.y       Cutter.pfx_z.x       Cutter.pfx_z.y  
-          1.125e+01           -4.252e-01            7.078e+00  
-      Cutter.vloc.x        Cutter.vloc.y             Cutter.x  
-          9.653e+01           -1.158e+02            1.242e-01  
-           Cutter.y                FIP.x                FIP.y  
-         -4.763e-01           -2.180e+00            2.725e+01  
-    Fourseam.bway.x      Fourseam.bway.y      Fourseam.hloc.x  
-         -1.482e+01            5.341e+00           -1.120e+02  
-    Fourseam.hloc.y    Fourseam.maxmph.x    Fourseam.maxmph.y  
-          1.470e+02            8.376e+01            2.791e+01  
-     Fourseam.mph.x       Fourseam.mph.y     Fourseam.pfx_x.x  
-         -8.579e+01           -2.991e+01            7.300e-03  
-   Fourseam.pfx_x.y     Fourseam.pfx_z.x     Fourseam.pfx_z.y  
-          6.258e+00           -5.765e-01            2.550e+01  
-    Fourseam.vloc.x      Fourseam.vloc.y           Fourseam.x  
-         -3.299e+01            7.423e+01            7.396e-02  
-         Fourseam.y                HBP.x                HBP.y  
-         -2.970e-01           -1.752e+01           -1.674e+01  
-               HR.x                 HR.y             IPouts.x  
-          7.318e+00           -1.958e+00           -1.103e+00  
-           IPouts.y      Knuckler.bway.x      Knuckler.bway.y  
-          1.196e+00                   NA                   NA  
-    Knuckler.hloc.x      Knuckler.hloc.y    Knuckler.maxmph.x  
-                 NA                   NA                   NA  
-  Knuckler.maxmph.y       Knuckler.mph.x       Knuckler.mph.y  
-                 NA                   NA                   NA  
-   Knuckler.pfx_x.x     Knuckler.pfx_x.y     Knuckler.pfx_z.x  
-                 NA                   NA                   NA  
-   Knuckler.pfx_z.y      Knuckler.vloc.x      Knuckler.vloc.y  
-                 NA                   NA                   NA  
-         Knuckler.x           Knuckler.y        Sinker.bway.x  
-                 NA                   NA           -1.272e+00  
-      Sinker.bway.y        Sinker.hloc.x        Sinker.hloc.y  
-          6.426e+00           -3.243e+00           -1.158e+02  
-    Sinker.maxmph.x      Sinker.maxmph.y         Sinker.mph.x  
-         -3.564e+01            1.829e+01            3.542e+01  
-       Sinker.mph.y       Sinker.pfx_x.x       Sinker.pfx_x.y  
-         -1.770e+01            1.299e+01           -7.930e+00  
-     Sinker.pfx_z.x       Sinker.pfx_z.y        Sinker.vloc.x  
-                 NA                   NA                   NA  
-      Sinker.vloc.y             Sinker.x             Sinker.y  
-                 NA                   NA                   NA  
-      Slider.bway.x        Slider.bway.y        Slider.hloc.x  
-                 NA                   NA                   NA  
-      Slider.hloc.y      Slider.maxmph.x      Slider.maxmph.y  
-                 NA                   NA                   NA  
-       Slider.mph.x         Slider.mph.y       Slider.pfx_x.x  
-                 NA                   NA                   NA  
-     Slider.pfx_x.y       Slider.pfx_z.x       Slider.pfx_z.y  
-                 NA                   NA                   NA  
-      Slider.vloc.x        Slider.vloc.y             Slider.x  
-                 NA                   NA                   NA  
-           Slider.y    Slow.Curve.bway.x    Slow.Curve.bway.y  
-                 NA                   NA                   NA  
-  Slow.Curve.hloc.x    Slow.Curve.hloc.y  Slow.Curve.maxmph.x  
-                 NA                   NA                   NA  
-Slow.Curve.maxmph.y     Slow.Curve.mph.x     Slow.Curve.mph.y  
-                 NA                   NA                   NA  
- Slow.Curve.pfx_x.x   Slow.Curve.pfx_x.y   Slow.Curve.pfx_z.x  
-                 NA                   NA                   NA  
- Slow.Curve.pfx_z.y    Slow.Curve.vloc.x    Slow.Curve.vloc.y  
-                 NA                   NA                   NA  
-       Slow.Curve.x         Slow.Curve.y                 SO.x  
-                 NA                   NA                   NA  
-               SO.y         Split.bway.x         Split.bway.y  
-                 NA                   NA                   NA  
-       Split.hloc.x         Split.hloc.y       Split.maxmph.x  
-                 NA                   NA                   NA  
-     Split.maxmph.y          Split.mph.x          Split.mph.y  
-                 NA                   NA                   NA  
-      Split.pfx_x.x        Split.pfx_x.y        Split.pfx_z.x  
-                 NA                   NA                   NA  
-      Split.pfx_z.y         Split.vloc.x         Split.vloc.y  
-                 NA                   NA                   NA  
+        (Intercept)                 BB.x  
+         61935.7999             -24.7543  
+               BB.y           birth_year  
+            -7.1171             -31.0732  
+      Change.bway.x        Change.bway.y  
+           -16.1992              66.7181  
+      Change.hloc.x        Change.hloc.y  
+          -399.2893              53.4114  
+    Change.maxmph.x      Change.maxmph.y  
+          -216.6287             -68.9458  
+       Change.mph.x         Change.mph.y  
+           227.2293              58.4708  
+     Change.pfx_x.x       Change.pfx_x.y  
+           -32.7948              -2.2116  
+     Change.pfx_z.x       Change.pfx_z.y  
+           194.0006             -34.1995  
+      Change.vloc.x        Change.vloc.y  
+           116.3188               1.6420  
+           Change.x             Change.y  
+            -2.4466               0.7392  
+       Curve.bway.x         Curve.bway.y  
+           226.7363             338.1070  
+       Curve.hloc.x         Curve.hloc.y  
+          -462.5814             713.8895  
+     Curve.maxmph.x       Curve.maxmph.y  
+          -139.6593              12.6594  
+        Curve.mph.x          Curve.mph.y  
+           166.1673             -39.5929  
+      Curve.pfx_x.x        Curve.pfx_x.y  
+            52.3884              62.2646  
+      Curve.pfx_z.x        Curve.pfx_z.y  
+           329.5594             -27.2705  
+       Curve.vloc.x         Curve.vloc.y  
+           115.8528           -1404.9316  
+            Curve.x              Curve.y  
+            -2.0921              -3.6130  
+      Cutter.bway.x        Cutter.bway.y  
+          -216.1849              90.3845  
+      Cutter.hloc.x        Cutter.hloc.y  
+          1081.1063           -1745.2084  
+    Cutter.maxmph.x      Cutter.maxmph.y  
+          -323.9261            -327.4255  
+       Cutter.mph.x         Cutter.mph.y  
+           341.9367             304.2417  
+     Cutter.pfx_x.x       Cutter.pfx_x.y  
+           408.4288            -572.5730  
+     Cutter.pfx_z.x       Cutter.pfx_z.y  
+           179.1708             149.8300  
+      Cutter.vloc.x        Cutter.vloc.y  
+          -806.3245           -3906.3980  
+           Cutter.x             Cutter.y  
+             0.2300               2.8903  
+              FIP.x                FIP.y  
+            87.2193             -44.6278  
+    Fourseam.bway.x      Fourseam.bway.y  
+            44.6344            -115.4130  
+    Fourseam.hloc.x      Fourseam.hloc.y  
+           232.6110            -264.9050  
+  Fourseam.maxmph.x    Fourseam.maxmph.y  
+          -178.2011             153.6222  
+     Fourseam.mph.x       Fourseam.mph.y  
+           186.4195            -155.5982  
+   Fourseam.pfx_x.x     Fourseam.pfx_x.y  
+          -169.5252             171.4159  
+   Fourseam.pfx_z.x     Fourseam.pfx_z.y  
+            53.3490            -155.8562  
+    Fourseam.vloc.x      Fourseam.vloc.y  
+            -2.5981             133.9022  
+         Fourseam.x           Fourseam.y  
+            -1.6883               1.1434  
+              HBP.x                HBP.y  
+            40.4538              91.1236  
+               HR.x                 HR.y  
+           -46.4236              24.1342  
+           IPouts.x             IPouts.y  
+            10.2354              -3.9967  
+    Knuckler.bway.x      Knuckler.bway.y  
+                 NA                   NA  
+    Knuckler.hloc.x      Knuckler.hloc.y  
+                 NA                   NA  
+  Knuckler.maxmph.x    Knuckler.maxmph.y  
+                 NA                   NA  
+     Knuckler.mph.x       Knuckler.mph.y  
+                 NA                   NA  
+   Knuckler.pfx_x.x     Knuckler.pfx_x.y  
+                 NA                   NA  
+   Knuckler.pfx_z.x     Knuckler.pfx_z.y  
+                 NA                   NA  
+    Knuckler.vloc.x      Knuckler.vloc.y  
+                 NA                   NA  
+         Knuckler.x           Knuckler.y  
+                 NA                   NA  
+      Sinker.bway.x        Sinker.bway.y  
+           -53.1103             -86.7595  
+      Sinker.hloc.x        Sinker.hloc.y  
+          1073.2613             291.4374  
+    Sinker.maxmph.x      Sinker.maxmph.y  
+            28.6389             -64.2036  
+       Sinker.mph.x         Sinker.mph.y  
+           -11.1690              49.2772  
+     Sinker.pfx_x.x       Sinker.pfx_x.y  
+            88.2062             -49.3169  
+     Sinker.pfx_z.x       Sinker.pfx_z.y  
+                 NA                   NA  
+      Sinker.vloc.x        Sinker.vloc.y  
+                 NA                   NA  
+           Sinker.x             Sinker.y  
+                 NA                   NA  
+      Slider.bway.x        Slider.bway.y  
+                 NA                   NA  
+      Slider.hloc.x        Slider.hloc.y  
+                 NA                   NA  
+    Slider.maxmph.x      Slider.maxmph.y  
+                 NA                   NA  
+       Slider.mph.x         Slider.mph.y  
+                 NA                   NA  
+     Slider.pfx_x.x       Slider.pfx_x.y  
+                 NA                   NA  
+     Slider.pfx_z.x       Slider.pfx_z.y  
+                 NA                   NA  
+      Slider.vloc.x        Slider.vloc.y  
+                 NA                   NA  
+           Slider.x             Slider.y  
+                 NA                   NA  
+  Slow.Curve.bway.x    Slow.Curve.bway.y  
+                 NA                   NA  
+  Slow.Curve.hloc.x    Slow.Curve.hloc.y  
+                 NA                   NA  
+Slow.Curve.maxmph.x  Slow.Curve.maxmph.y  
+                 NA                   NA  
+   Slow.Curve.mph.x     Slow.Curve.mph.y  
+                 NA                   NA  
+ Slow.Curve.pfx_x.x   Slow.Curve.pfx_x.y  
+                 NA                   NA  
+ Slow.Curve.pfx_z.x   Slow.Curve.pfx_z.y  
+                 NA                   NA  
+  Slow.Curve.vloc.x    Slow.Curve.vloc.y  
+                 NA                   NA  
+       Slow.Curve.x         Slow.Curve.y  
+                 NA                   NA  
+               SO.x                 SO.y  
+                 NA                   NA  
+       Split.bway.x         Split.bway.y  
+                 NA                   NA  
+       Split.hloc.x         Split.hloc.y  
+                 NA                   NA  
+     Split.maxmph.x       Split.maxmph.y  
+                 NA                   NA  
+        Split.mph.x          Split.mph.y  
+                 NA                   NA  
+      Split.pfx_x.x        Split.pfx_x.y  
+                 NA                   NA  
+      Split.pfx_z.x        Split.pfx_z.y  
+                 NA                   NA  
+       Split.vloc.x         Split.vloc.y  
+                 NA                   NA  
             Split.x              Split.y  
                  NA                   NA  
 
 Degrees of Freedom: 85 Total (i.e. Null);  0 Residual
-Null Deviance:	    119.2 
+Null Deviance:	    119 
 Residual Deviance: 4.989e-10 	AIC: 172

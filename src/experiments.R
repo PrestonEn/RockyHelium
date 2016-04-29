@@ -7,18 +7,18 @@ tjs <- na.omit(tbl_df(read.csv("data/tjs_data_fin.csv")))
 control.53 <- tbl_df(read.csv("data/control_53_examples_1.csv"))
 #control.106 <- tbl_df(read.csv("data/control_106_examples_1.csv"))
 #control.159 <- tbl_df(read.csv("data/control_159_examples_1.csv"))
-#control.212 <- tbl_df(read.csv("data/control_212_examples_1.csv"))
+control.212 <- tbl_df(read.csv("data/control_212_examples_1.csv"))
 
 # bind tjs and controls
 rset.53 <- rbind(tjs, control.53)
 #rset.106 <- rbind(tjs, control.106)
 #rset.159 <- rbind(tjs, control.159)
-#rset.212 <- rbind(tjs, control.212)
+rset.212 <- rbind(tjs, control.212)
 # shuffle
 rset.53 <- rset.53[sample(1:nrow(rset.53)), ]
 #rset.106 <- rset.106[sample(1:nrow(rset.106)), ]
 #rset.159 <- rset.159[sample(1:nrow(rset.159)), ]
-#rset.212 <- rset.212[sample(1:nrow(rset.212)), ]
+rset.212 <- rset.212[sample(1:nrow(rset.212)), ]
 
 # write summary of datasets to files
 summary(rset.53) %>%
@@ -50,7 +50,7 @@ sapply(rset.212, sd) %>%
 ## split training data into train batch and test batch
 # 80/20 split
 set.seed(313)
-training.rows <- createDataPartition(rset.53$tjs_label, 
+training.rows <- createDataPartition(rset.212$tjs_label, 
                                      p = 0.8, list = FALSE)
 train.batch <- rset.53[training.rows, ]
 test.batch <- rset.53[-training.rows, ]
@@ -81,5 +81,5 @@ result$prediction <- predict(rf, extractFeatures(test.batch))
 compare_results<-cbind(result,test.batch$tjs_label)
 # create confusion matrix
 confusionMatrix(test.batch$tjs_label,result$prediction) %>%
-  capture.output(file = "results/conf_matrix_rf.txt")
+  capture.output(file = "results/conf_matrix_rf_212.txt")
 

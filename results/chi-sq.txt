@@ -7,164 +7,323 @@ Response: tjs_label
 Terms added sequentially (first to last)
 
 
-                    Df Deviance Resid. Df Resid. Dev  Pr(>Chi)    
-NULL                                   85     119.17              
-BB.x                 1     2.50        84     116.67 0.1137582    
-BB.y                 1    13.95        83     102.73 0.0001881 ***
-birth_year           1     1.24        82     101.49 0.2651625    
-Change.bway.x        1     0.48        81     101.01 0.4890353    
-Change.bway.y        1     0.15        80     100.85 0.6965394    
-Change.hloc.x        1     2.30        79      98.55 0.1290701    
-Change.hloc.y        1     0.46        78      98.09 0.4990275    
-Change.maxmph.x      1     0.05        77      98.04 0.8217752    
-Change.maxmph.y      1     0.20        76      97.85 0.6585590    
-Change.mph.x         1     0.91        75      96.94 0.3403075    
-Change.mph.y         1     3.52        74      93.42 0.0607910 .  
-Change.pfx_x.x       1     0.10        73      93.32 0.7512448    
-Change.pfx_x.y       1     0.14        72      93.18 0.7080130    
-Change.pfx_z.x       1     0.38        71      92.80 0.5371542    
-Change.pfx_z.y       1     0.01        70      92.79 0.9038140    
-Change.vloc.x        1     0.01        69      92.77 0.9037256    
-Change.vloc.y        1     0.00        68      92.77 0.9440250    
-Change.x             1     1.57        67      91.20 0.2099240    
-Change.y             1     0.94        66      90.26 0.3323846    
-Curve.bway.x         1     3.39        65      86.87 0.0657802 .  
-Curve.bway.y         1     0.01        64      86.86 0.9347696    
-Curve.hloc.x         1     5.28        63      81.59 0.0216120 *  
-Curve.hloc.y         1     0.64        62      80.95 0.4243387    
-Curve.maxmph.x       1     0.37        61      80.58 0.5453922    
-Curve.maxmph.y       1     1.35        60      79.23 0.2452635    
-Curve.mph.x          1     0.62        59      78.62 0.4323358    
-Curve.mph.y          1     0.00        58      78.62 0.9893307    
-Curve.pfx_x.x        1     3.87        57      74.74 0.0490684 *  
-Curve.pfx_x.y        1     1.18        56      73.56 0.2765641    
-Curve.pfx_z.x        1     2.78        55      70.78 0.0953433 .  
-Curve.pfx_z.y        1    12.49        54      58.29 0.0004092 ***
-Curve.vloc.x         1     0.17        53      58.12 0.6812386    
-Curve.vloc.y         1     1.17        52      56.95 0.2788786    
-Curve.x              1     0.31        51      56.63 0.5762758    
-Curve.y              1     0.16        50      56.48 0.6909544    
-Cutter.bway.x        1     0.79        49      55.69 0.3742727    
-Cutter.bway.y        1     9.40        48      46.29 0.0021754 ** 
-Cutter.hloc.x        1     1.14        47      45.15 0.2858485    
-Cutter.hloc.y        1     0.04        46      45.11 0.8329946    
-Cutter.maxmph.x      1     3.41        45      41.70 0.0648329 .  
-Cutter.maxmph.y      1    41.70        44       0.00 1.065e-10 ***
-Cutter.mph.x         1     0.00        43     792.96 1.0000000    
-Cutter.mph.y         1   792.96        42       0.00 < 2.2e-16 ***
-Cutter.pfx_x.x       1     0.00        41       0.00 1.0000000    
-Cutter.pfx_x.y       1     0.00        40       0.00 0.9999789    
-Cutter.pfx_z.x       1     0.00        39       0.00 0.9999728    
-Cutter.pfx_z.y       1     0.00        38     576.70 1.0000000    
-Cutter.vloc.x        1     0.00        37     792.96 1.0000000    
-Cutter.vloc.y        1   792.96        36       0.00 < 2.2e-16 ***
-Cutter.x             1     0.00        35     504.61 1.0000000    
-Cutter.y             1   504.61        34       0.00 < 2.2e-16 ***
-FIP.x                1     0.00        33       0.00 0.9999667    
-FIP.y                1     0.00        32       0.00 0.9999875    
-Fourseam.bway.x      1     0.00        31       0.00 0.9999853    
-Fourseam.bway.y      1     0.00        30     432.52 1.0000000    
-Fourseam.hloc.x      1   432.52        29       0.00 < 2.2e-16 ***
-Fourseam.hloc.y      1     0.00        28       0.00 0.9999716    
-Fourseam.maxmph.x    1     0.00        27       0.00 0.9999974    
-Fourseam.maxmph.y    1     0.00        26       0.00 0.9999967    
-Fourseam.mph.x       1     0.00        25       0.00 0.9999968    
-Fourseam.mph.y       1     0.00        24       0.00 0.9999951    
-Fourseam.pfx_x.x     1     0.00        23       0.00 0.9999940    
-Fourseam.pfx_x.y     1     0.00        22       0.00 0.9999948    
-Fourseam.pfx_z.x     1     0.00        21       0.00 0.9999930    
-Fourseam.pfx_z.y     1     0.00        20       0.00 0.9999966    
-Fourseam.vloc.x      1     0.00        19       0.00 0.9999897    
-Fourseam.vloc.y      1     0.00        18       0.00 0.9999947    
-Fourseam.x           1     0.00        17       0.00 0.9999908    
-Fourseam.y           1     0.00        16       0.00 0.9999914    
-HBP.x                1     0.00        15       0.00 0.9999969    
-HBP.y                1     0.00        14       0.00 0.9999993    
-HR.x                 1     0.00        13       0.00 0.9999911    
-HR.y                 1     0.00        12       0.00 0.9999967    
-IPouts.x             1     0.00        11       0.00 0.9999975    
-IPouts.y             1     0.00        10       0.00 0.9999942    
-Knuckler.bway.x      0     0.00        10       0.00              
-Knuckler.bway.y      0     0.00        10       0.00              
-Knuckler.hloc.x      0     0.00        10       0.00              
-Knuckler.hloc.y      0     0.00        10       0.00              
-Knuckler.maxmph.x    0     0.00        10       0.00              
-Knuckler.maxmph.y    0     0.00        10       0.00              
-Knuckler.mph.x       0     0.00        10       0.00              
-Knuckler.mph.y       0     0.00        10       0.00              
-Knuckler.pfx_x.x     0     0.00        10       0.00              
-Knuckler.pfx_x.y     0     0.00        10       0.00              
-Knuckler.pfx_z.x     0     0.00        10       0.00              
-Knuckler.pfx_z.y     0     0.00        10       0.00              
-Knuckler.vloc.x      0     0.00        10       0.00              
-Knuckler.vloc.y      0     0.00        10       0.00              
-Knuckler.x           0     0.00        10       0.00              
-Knuckler.y           0     0.00        10       0.00              
-Sinker.bway.x        1     0.00         9       0.00 0.9999978    
-Sinker.bway.y        1     0.00         8       0.00 0.9999973    
-Sinker.hloc.x        1     0.00         7       0.00 0.9999981    
-Sinker.hloc.y        1     0.00         6       0.00 0.9999934    
-Sinker.maxmph.x      1     0.00         5       0.00 0.9999940    
-Sinker.maxmph.y      1     0.00         4       0.00 0.9999917    
-Sinker.mph.x         1     0.00         3       0.00 0.9999935    
-Sinker.mph.y         1     0.00         2       0.00 0.9999956    
-Sinker.pfx_x.x       1     0.00         1       0.00 0.9999952    
-Sinker.pfx_x.y       1     0.00         0       0.00 0.9999971    
-Sinker.pfx_z.x       0     0.00         0       0.00              
-Sinker.pfx_z.y       0     0.00         0       0.00              
-Sinker.vloc.x        0     0.00         0       0.00              
-Sinker.vloc.y        0     0.00         0       0.00              
-Sinker.x             0     0.00         0       0.00              
-Sinker.y             0     0.00         0       0.00              
-Slider.bway.x        0     0.00         0       0.00              
-Slider.bway.y        0     0.00         0       0.00              
-Slider.hloc.x        0     0.00         0       0.00              
-Slider.hloc.y        0     0.00         0       0.00              
-Slider.maxmph.x      0     0.00         0       0.00              
-Slider.maxmph.y      0     0.00         0       0.00              
-Slider.mph.x         0     0.00         0       0.00              
-Slider.mph.y         0     0.00         0       0.00              
-Slider.pfx_x.x       0     0.00         0       0.00              
-Slider.pfx_x.y       0     0.00         0       0.00              
-Slider.pfx_z.x       0     0.00         0       0.00              
-Slider.pfx_z.y       0     0.00         0       0.00              
-Slider.vloc.x        0     0.00         0       0.00              
-Slider.vloc.y        0     0.00         0       0.00              
-Slider.x             0     0.00         0       0.00              
-Slider.y             0     0.00         0       0.00              
-Slow.Curve.bway.x    0     0.00         0       0.00              
-Slow.Curve.bway.y    0     0.00         0       0.00              
-Slow.Curve.hloc.x    0     0.00         0       0.00              
-Slow.Curve.hloc.y    0     0.00         0       0.00              
-Slow.Curve.maxmph.x  0     0.00         0       0.00              
-Slow.Curve.maxmph.y  0     0.00         0       0.00              
-Slow.Curve.mph.x     0     0.00         0       0.00              
-Slow.Curve.mph.y     0     0.00         0       0.00              
-Slow.Curve.pfx_x.x   0     0.00         0       0.00              
-Slow.Curve.pfx_x.y   0     0.00         0       0.00              
-Slow.Curve.pfx_z.x   0     0.00         0       0.00              
-Slow.Curve.pfx_z.y   0     0.00         0       0.00              
-Slow.Curve.vloc.x    0     0.00         0       0.00              
-Slow.Curve.vloc.y    0     0.00         0       0.00              
-Slow.Curve.x         0     0.00         0       0.00              
-Slow.Curve.y         0     0.00         0       0.00              
-SO.x                 0     0.00         0       0.00              
-SO.y                 0     0.00         0       0.00              
-Split.bway.x         0     0.00         0       0.00              
-Split.bway.y         0     0.00         0       0.00              
-Split.hloc.x         0     0.00         0       0.00              
-Split.hloc.y         0     0.00         0       0.00              
-Split.maxmph.x       0     0.00         0       0.00              
-Split.maxmph.y       0     0.00         0       0.00              
-Split.mph.x          0     0.00         0       0.00              
-Split.mph.y          0     0.00         0       0.00              
-Split.pfx_x.x        0     0.00         0       0.00              
-Split.pfx_x.y        0     0.00         0       0.00              
-Split.pfx_z.x        0     0.00         0       0.00              
-Split.pfx_z.y        0     0.00         0       0.00              
-Split.vloc.x         0     0.00         0       0.00              
-Split.vloc.y         0     0.00         0       0.00              
-Split.x              0     0.00         0       0.00              
-Split.y              0     0.00         0       0.00              
+                    Df Deviance Resid. Df Resid. Dev
+NULL                                   85    119.035
+BB.x                 1    3.068        84    115.968
+BB.y                 1   11.328        83    104.640
+birth_year           1    2.506        82    102.134
+Change.bway.x        1    0.065        81    102.069
+Change.bway.y        1    0.086        80    101.983
+Change.hloc.x        1    1.892        79    100.091
+Change.hloc.y        1    4.328        78     95.763
+Change.maxmph.x      1    0.125        77     95.638
+Change.maxmph.y      1    0.718        76     94.920
+Change.mph.x         1    0.122        75     94.798
+Change.mph.y         1    4.328        74     90.470
+Change.pfx_x.x       1    0.001        73     90.468
+Change.pfx_x.y       1    8.931        72     81.537
+Change.pfx_z.x       1    0.077        71     81.460
+Change.pfx_z.y       1    0.014        70     81.446
+Change.vloc.x        1    0.514        69     80.932
+Change.vloc.y        1    0.027        68     80.904
+Change.x             1    0.554        67     80.350
+Change.y             1    1.226        66     79.124
+Curve.bway.x         1    4.309        65     74.815
+Curve.bway.y         1    4.321        64     70.495
+Curve.hloc.x         1    4.783        63     65.712
+Curve.hloc.y         1    0.006        62     65.706
+Curve.maxmph.x       1    0.064        61     65.643
+Curve.maxmph.y       1    0.176        60     65.466
+Curve.mph.x          1   14.792        59     50.674
+Curve.mph.y          1    0.002        58     50.672
+Curve.pfx_x.x        1    4.578        57     46.094
+Curve.pfx_x.y        1    1.139        56     44.955
+Curve.pfx_z.x        1    1.357        55     43.598
+Curve.pfx_z.y        1    3.991        54     39.606
+Curve.vloc.x         1    5.178        53     34.428
+Curve.vloc.y         1   34.428        52      0.000
+Curve.x              1    0.000        51      0.000
+Curve.y              1    0.000        50      0.000
+Cutter.bway.x        1    0.000        49      0.000
+Cutter.bway.y        1    0.000        48      0.000
+Cutter.hloc.x        1    0.000        47      0.000
+Cutter.hloc.y        1    0.000        46      0.000
+Cutter.maxmph.x      1    0.000        45      0.000
+Cutter.maxmph.y      1    0.000        44      0.000
+Cutter.mph.x         1    0.000        43      0.000
+Cutter.mph.y         1    0.000        42      0.000
+Cutter.pfx_x.x       1    0.000        41      0.000
+Cutter.pfx_x.y       1    0.000        40      0.000
+Cutter.pfx_z.x       1    0.000        39      0.000
+Cutter.pfx_z.y       1    0.000        38      0.000
+Cutter.vloc.x        1    0.000        37      0.000
+Cutter.vloc.y        1    0.000        36      0.000
+Cutter.x             1    0.000        35      0.000
+Cutter.y             1    0.000        34      0.000
+FIP.x                1    0.000        33      0.000
+FIP.y                1    0.000        32      0.000
+Fourseam.bway.x      1    0.000        31      0.000
+Fourseam.bway.y      1    0.000        30      0.000
+Fourseam.hloc.x      1    0.000        29      0.000
+Fourseam.hloc.y      1    0.000        28      0.000
+Fourseam.maxmph.x    1    0.000        27      0.000
+Fourseam.maxmph.y    1    0.000        26      0.000
+Fourseam.mph.x       1    0.000        25      0.000
+Fourseam.mph.y       1    0.000        24      0.000
+Fourseam.pfx_x.x     1    0.000        23      0.000
+Fourseam.pfx_x.y     1    0.000        22      0.000
+Fourseam.pfx_z.x     1    0.000        21      0.000
+Fourseam.pfx_z.y     1    0.000        20      0.000
+Fourseam.vloc.x      1    0.000        19      0.000
+Fourseam.vloc.y      1    0.000        18      0.000
+Fourseam.x           1    0.000        17      0.000
+Fourseam.y           1    0.000        16      0.000
+HBP.x                1    0.000        15      0.000
+HBP.y                1    0.000        14      0.000
+HR.x                 1    0.000        13      0.000
+HR.y                 1    0.000        12      0.000
+IPouts.x             1    0.000        11      0.000
+IPouts.y             1    0.000        10      0.000
+Knuckler.bway.x      0    0.000        10      0.000
+Knuckler.bway.y      0    0.000        10      0.000
+Knuckler.hloc.x      0    0.000        10      0.000
+Knuckler.hloc.y      0    0.000        10      0.000
+Knuckler.maxmph.x    0    0.000        10      0.000
+Knuckler.maxmph.y    0    0.000        10      0.000
+Knuckler.mph.x       0    0.000        10      0.000
+Knuckler.mph.y       0    0.000        10      0.000
+Knuckler.pfx_x.x     0    0.000        10      0.000
+Knuckler.pfx_x.y     0    0.000        10      0.000
+Knuckler.pfx_z.x     0    0.000        10      0.000
+Knuckler.pfx_z.y     0    0.000        10      0.000
+Knuckler.vloc.x      0    0.000        10      0.000
+Knuckler.vloc.y      0    0.000        10      0.000
+Knuckler.x           0    0.000        10      0.000
+Knuckler.y           0    0.000        10      0.000
+Sinker.bway.x        1    0.000         9      0.000
+Sinker.bway.y        1    0.000         8      0.000
+Sinker.hloc.x        1    0.000         7      0.000
+Sinker.hloc.y        1    0.000         6      0.000
+Sinker.maxmph.x      1    0.000         5      0.000
+Sinker.maxmph.y      1    0.000         4      0.000
+Sinker.mph.x         1    0.000         3      0.000
+Sinker.mph.y         1    0.000         2      0.000
+Sinker.pfx_x.x       1    0.000         1      0.000
+Sinker.pfx_x.y       1    0.000         0      0.000
+Sinker.pfx_z.x       0    0.000         0      0.000
+Sinker.pfx_z.y       0    0.000         0      0.000
+Sinker.vloc.x        0    0.000         0      0.000
+Sinker.vloc.y        0    0.000         0      0.000
+Sinker.x             0    0.000         0      0.000
+Sinker.y             0    0.000         0      0.000
+Slider.bway.x        0    0.000         0      0.000
+Slider.bway.y        0    0.000         0      0.000
+Slider.hloc.x        0    0.000         0      0.000
+Slider.hloc.y        0    0.000         0      0.000
+Slider.maxmph.x      0    0.000         0      0.000
+Slider.maxmph.y      0    0.000         0      0.000
+Slider.mph.x         0    0.000         0      0.000
+Slider.mph.y         0    0.000         0      0.000
+Slider.pfx_x.x       0    0.000         0      0.000
+Slider.pfx_x.y       0    0.000         0      0.000
+Slider.pfx_z.x       0    0.000         0      0.000
+Slider.pfx_z.y       0    0.000         0      0.000
+Slider.vloc.x        0    0.000         0      0.000
+Slider.vloc.y        0    0.000         0      0.000
+Slider.x             0    0.000         0      0.000
+Slider.y             0    0.000         0      0.000
+Slow.Curve.bway.x    0    0.000         0      0.000
+Slow.Curve.bway.y    0    0.000         0      0.000
+Slow.Curve.hloc.x    0    0.000         0      0.000
+Slow.Curve.hloc.y    0    0.000         0      0.000
+Slow.Curve.maxmph.x  0    0.000         0      0.000
+Slow.Curve.maxmph.y  0    0.000         0      0.000
+Slow.Curve.mph.x     0    0.000         0      0.000
+Slow.Curve.mph.y     0    0.000         0      0.000
+Slow.Curve.pfx_x.x   0    0.000         0      0.000
+Slow.Curve.pfx_x.y   0    0.000         0      0.000
+Slow.Curve.pfx_z.x   0    0.000         0      0.000
+Slow.Curve.pfx_z.y   0    0.000         0      0.000
+Slow.Curve.vloc.x    0    0.000         0      0.000
+Slow.Curve.vloc.y    0    0.000         0      0.000
+Slow.Curve.x         0    0.000         0      0.000
+Slow.Curve.y         0    0.000         0      0.000
+SO.x                 0    0.000         0      0.000
+SO.y                 0    0.000         0      0.000
+Split.bway.x         0    0.000         0      0.000
+Split.bway.y         0    0.000         0      0.000
+Split.hloc.x         0    0.000         0      0.000
+Split.hloc.y         0    0.000         0      0.000
+Split.maxmph.x       0    0.000         0      0.000
+Split.maxmph.y       0    0.000         0      0.000
+Split.mph.x          0    0.000         0      0.000
+Split.mph.y          0    0.000         0      0.000
+Split.pfx_x.x        0    0.000         0      0.000
+Split.pfx_x.y        0    0.000         0      0.000
+Split.pfx_z.x        0    0.000         0      0.000
+Split.pfx_z.y        0    0.000         0      0.000
+Split.vloc.x         0    0.000         0      0.000
+Split.vloc.y         0    0.000         0      0.000
+Split.x              0    0.000         0      0.000
+Split.y              0    0.000         0      0.000
+                     Pr(>Chi)    
+NULL                             
+BB.x                0.0798664 .  
+BB.y                0.0007636 ***
+birth_year          0.1134380    
+Change.bway.x       0.7988435    
+Change.bway.y       0.7691305    
+Change.hloc.x       0.1689966    
+Change.hloc.y       0.0374839 *  
+Change.maxmph.x     0.7237459    
+Change.maxmph.y     0.3968043    
+Change.mph.x        0.7266125    
+Change.mph.y        0.0374824 *  
+Change.pfx_x.x      0.9709541    
+Change.pfx_x.y      0.0028036 ** 
+Change.pfx_z.x      0.7811457    
+Change.pfx_z.y      0.9054873    
+Change.vloc.x       0.4732603    
+Change.vloc.y       0.8690527    
+Change.x            0.4566598    
+Change.y            0.2682028    
+Curve.bway.x        0.0379124 *  
+Curve.bway.y        0.0376483 *  
+Curve.hloc.x        0.0287501 *  
+Curve.hloc.y        0.9401109    
+Curve.maxmph.x      0.8006801    
+Curve.maxmph.y      0.6745348    
+Curve.mph.x         0.0001200 ***
+Curve.mph.y         0.9688142    
+Curve.pfx_x.x       0.0323779 *  
+Curve.pfx_x.y       0.2857943    
+Curve.pfx_z.x       0.2440448    
+Curve.pfx_z.y       0.0457383 *  
+Curve.vloc.x        0.0228746 *  
+Curve.vloc.y        4.422e-09 ***
+Curve.x             0.9999861    
+Curve.y             0.9999404    
+Cutter.bway.x       0.9999108    
+Cutter.bway.y       0.9999180    
+Cutter.hloc.x       0.9999337    
+Cutter.hloc.y       0.9999730    
+Cutter.maxmph.x     0.9999393    
+Cutter.maxmph.y     0.9999150    
+Cutter.mph.x        0.9999717    
+Cutter.mph.y        0.9999746    
+Cutter.pfx_x.x      0.9999815    
+Cutter.pfx_x.y      0.9999859    
+Cutter.pfx_z.x      0.9999761    
+Cutter.pfx_z.y      0.9999967    
+Cutter.vloc.x       0.9999795    
+Cutter.vloc.y       0.9999653    
+Cutter.x            0.9999872    
+Cutter.y            0.9999969    
+FIP.x               0.9999901    
+FIP.y               0.9999703    
+Fourseam.bway.x     0.9999951    
+Fourseam.bway.y     0.9999891    
+Fourseam.hloc.x     0.9999770    
+Fourseam.hloc.y     0.9999927    
+Fourseam.maxmph.x   0.9999891    
+Fourseam.maxmph.y   0.9999931    
+Fourseam.mph.x      0.9999944    
+Fourseam.mph.y      0.9999931    
+Fourseam.pfx_x.x    0.9999975    
+Fourseam.pfx_x.y    0.9999976    
+Fourseam.pfx_z.x    0.9999983    
+Fourseam.pfx_z.y    0.9999950    
+Fourseam.vloc.x     0.9999924    
+Fourseam.vloc.y     0.9999912    
+Fourseam.x          0.9999960    
+Fourseam.y          0.9999975    
+HBP.x               0.9999974    
+HBP.y               0.9999955    
+HR.x                0.9999877    
+HR.y                0.9999989    
+IPouts.x            0.9999986    
+IPouts.y            0.9999924    
+Knuckler.bway.x                  
+Knuckler.bway.y                  
+Knuckler.hloc.x                  
+Knuckler.hloc.y                  
+Knuckler.maxmph.x                
+Knuckler.maxmph.y                
+Knuckler.mph.x                   
+Knuckler.mph.y                   
+Knuckler.pfx_x.x                 
+Knuckler.pfx_x.y                 
+Knuckler.pfx_z.x                 
+Knuckler.pfx_z.y                 
+Knuckler.vloc.x                  
+Knuckler.vloc.y                  
+Knuckler.x                       
+Knuckler.y                       
+Sinker.bway.x       0.9999980    
+Sinker.bway.y       0.9999959    
+Sinker.hloc.x       0.9999979    
+Sinker.hloc.y       0.9999930    
+Sinker.maxmph.x     0.9999908    
+Sinker.maxmph.y     0.9999998    
+Sinker.mph.x        0.9999981    
+Sinker.mph.y        0.9999944    
+Sinker.pfx_x.x      0.9999950    
+Sinker.pfx_x.y      0.9999957    
+Sinker.pfx_z.x                   
+Sinker.pfx_z.y                   
+Sinker.vloc.x                    
+Sinker.vloc.y                    
+Sinker.x                         
+Sinker.y                         
+Slider.bway.x                    
+Slider.bway.y                    
+Slider.hloc.x                    
+Slider.hloc.y                    
+Slider.maxmph.x                  
+Slider.maxmph.y                  
+Slider.mph.x                     
+Slider.mph.y                     
+Slider.pfx_x.x                   
+Slider.pfx_x.y                   
+Slider.pfx_z.x                   
+Slider.pfx_z.y                   
+Slider.vloc.x                    
+Slider.vloc.y                    
+Slider.x                         
+Slider.y                         
+Slow.Curve.bway.x                
+Slow.Curve.bway.y                
+Slow.Curve.hloc.x                
+Slow.Curve.hloc.y                
+Slow.Curve.maxmph.x              
+Slow.Curve.maxmph.y              
+Slow.Curve.mph.x                 
+Slow.Curve.mph.y                 
+Slow.Curve.pfx_x.x               
+Slow.Curve.pfx_x.y               
+Slow.Curve.pfx_z.x               
+Slow.Curve.pfx_z.y               
+Slow.Curve.vloc.x                
+Slow.Curve.vloc.y                
+Slow.Curve.x                     
+Slow.Curve.y                     
+SO.x                             
+SO.y                             
+Split.bway.x                     
+Split.bway.y                     
+Split.hloc.x                     
+Split.hloc.y                     
+Split.maxmph.x                   
+Split.maxmph.y                   
+Split.mph.x                      
+Split.mph.y                      
+Split.pfx_x.x                    
+Split.pfx_x.y                    
+Split.pfx_z.x                    
+Split.pfx_z.y                    
+Split.vloc.x                     
+Split.vloc.y                     
+Split.x                          
+Split.y                          
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
