@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  29 APR 2016 11:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  29 APR 2016 17:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -318,7 +318,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
 [2 <./figs/ucl_sketch.png> <./figs/ucl_torque.png> <./figs/arm_pos.png>])
-(./methodology.tex [3]) (./report.bbl
+(./methodology.tex) (./experiments.tex [3]) (./analysis.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 9.
+) (./conclusion.tex) (./report.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 44--48
 \OT1/ptm/m/n/8 http://www.forbes.com/sites/maurybrown/2015/12/04/mlb-sees-recor
 d-
@@ -340,7 +345,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--69
 y-
  []
 
-
+[4]
 Underfull \hbox (badness 1442) in paragraph at lines 106--109
 []\OT1/ptm/m/n/8 ------. (2016) Base-ball Data-bank. [On-line]. Avail-able:
  []
@@ -350,17 +355,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--121
 []\OT1/ptm/m/n/8 ------. (2016) FIP. [On-line]. Avail-able:
  []
 
-) [4
+) [5
 
 ] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 3230 strings out of 493089
- 53899 string characters out of 6134842
- 123053 words of memory out of 5000000
- 6683 multiletter control sequences out of 15000+600000
- 37366 words of font info for 67 fonts, out of 8000000 for 9000
+ 3258 strings out of 493089
+ 54213 string characters out of 6134842
+ 123070 words of memory out of 5000000
+ 6695 multiletter control sequences out of 15000+600000
+ 40913 words of font info for 75 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 38i,5n,38p,1318b,214s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,38p,1124b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.e
 nc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
 b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
@@ -370,10 +375,10 @@ sr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (4 pages, 334190 bytes).
+Output written on report.pdf (5 pages, 337892 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
