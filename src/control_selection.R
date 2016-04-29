@@ -22,4 +22,5 @@ for(i in 2:length(years)){
 }
 
 control_play <- do.call(rbind, control_players)
+
 rownames(control_play) <- NULL
