@@ -13,10 +13,17 @@ To construct the data set first a list of potential TJS case pitchers were obtai
     \label{eq:fip}
 \end{figure}
 
-Inputs were selected based on what was used in previous literature as well as taking into account critiques and improvements \cite{Gray2014}. From the statistical data, we selected home runs (HR), walks (BB), batters hit by pitch (HBP), strike outs (K), and innings pitched (IP). As stated above, these statistical variables were used to calculate the FIP score for each pitcher in an attempt to get a comparable performance statistic between pitchers. From the PITCHf/X data we selected average release speed (mph), max release speed (maxmph), horizontal movement (pfx\_x), vertical movement (pfx\_z), horizontal pitch location (hloc), vertical pitch location (vloc), and grooved pitches (bway) which are pitches straight down the center of home plate. These variables were selected for each pitch type the player had used in the index year and year prior. Pitch counts were also collected for each pitch type a player had. The number of pitch types each pitcher has, therefore the number of variables with values could vary. To account for this we replaced any NA in pitchF/x and pitch count data with a 0 value.
+\subsection{Input Selection}
+
+Inputs were selected based on what was used in previous literature as well as taking into account critiques and improvements \cite{Gray2014}. From the statistical data, we selected home runs (HR), walks (BB), batters hit by pitch (HBP), strike outs (K), and innings pitched (IP). As stated above, these statistical variables were used to calculate the FIP score for each pitcher in an attempt to get a comparable performance statistic between pitchers. From the PITCHf/X data we selected average release speed (mph), max release speed (maxmph), horizontal movement (pfx\_x), vertical movement (pfx\_z), horizontal pitch location (hloc), vertical pitch location (vloc), and grooved pitches (bway) which are pitches straight down the center of home plate. These variables were selected for each pitch type the player had used in the index year and year prior. Pitch counts were also collected for each pitch type a player had. The number of pitch types each pitcher has, therefore the number of variables with values could vary. To account for this we replaced any NA in pitchF/x and pitch count data with a 0 value. In total there were 173 input variables per player, however as previously stated many of these could be 0 due to pitchers not throwing all pitch types.
+
+\subsection{Control Selection}
 
 Control pitchers were seleced with regard to TJS pitchers. For each index year between 2010-2015 groups were created where each control pitcher had data for that year and the year prior. For selection in analysis the TJS pitchers were first selected and then a control pitcher was selected from their respective bins based on TJS index year. We did no control for pitchers age or throwing arm, however birth year was included as an input.
 
-\subsection{Logistic Regression}
+\subsection{Data Analysis}
+To analyze the data we conducted both foward and backward stepwise logistic regressions using the glm and step functions in RStudio 0.99.893. The selection process for the stepwise regressions with these functions is conducted using Akaike information criterion (AIC). The data was also run through the neural network package nnet 7.3-12 also in RStudio 0.99.893.
 
-\subsection{Neural Network}
+
+
+
