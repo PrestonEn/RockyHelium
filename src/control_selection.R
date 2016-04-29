@@ -22,7 +22,7 @@ for(i in 2:length(years)){
 
   tmp <- subset(control_stats_merged[c("mlbam_id", "yearID")], yearID==years[i] & mlbam_id %in% intersect_y)
 
-  tmp <- tmp[sample(1:nrow(tmp), 4 * length(subset(tjplyrs, index_year==years[i])$index_year),replace=FALSE),]
+  tmp <- tmp[sample(1:nrow(tmp), length(subset(tjplyrs, index_year==years[i])$index_year),replace=FALSE),]
   control_players[[paste(years[i])]] <- tmp
 
 }
@@ -65,7 +65,7 @@ df <- df[ , !(names(df) %in% screw_list)]
 df <- df[ , order(names(df))]
 df$tjs_label <- 0
 
-write.csv(df,  "data/control_216_examples_1.csv",
+write.csv(df,  "data/control_54_examples_1.csv",
           quote = F, row.names = F, col.names = T, sep=",")
 
 
