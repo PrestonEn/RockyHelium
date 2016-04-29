@@ -1,0 +1,17 @@
+Results:
+
+
+
+
+    Rockfence RF model
+        - better overall prediction, but still misses positive cases
+
+        mean deacrease impurity
+
+            Uses R function varImpPlot to measure the mean decrease GINI impurity
+
+             Gini impurity is a measure of how often a randomly chosen element from the set would be incorrectly labeled if it were randomly labeled according to the distribution of labels in the subset
+
+        mean decrease accuracy
+
+            The general idea is to permute the values of each feature and measure how much the permutation decreases the accuracy   of the model. Clearly, for unimportant variables, the permutation should have little to no effect on model accuracy, while permuting important variables should significantly decrease it.
