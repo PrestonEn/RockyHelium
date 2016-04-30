@@ -43,3 +43,23 @@ Prediction & 0              & 1            \\
 \end{table}
 
 As seen in table \ref{tbl:rockfence} their model was also a poor predictor of TJS pitchers. This models accuracy was reported as 73.30\% with 95\% confidence intervals between 66.43\% and 79.43\%. The high number of correct classifications could be a result of more non TJS pitchers being in the dataset and thus classifying the majority of the pitchers as non TJS will appear to have a high accuracy.
+
+\begin{figure}[h]
+    \centering
+        \includegraphics[width=0.5\textwidth]{meanDecreaseAccuracy}
+    \caption{Mean decrease accuracy showing how variables affect the accuracy of the model}
+    \label{fig:mda}
+\end{figure}
+
+The general idea of mean decrease accuracy as shown in Figure \ref{fig:mda} is to permute the values of each feature and measure how much the permutation decreases the accuracy of the model. Therefore, for unimportant variables, the permutation should have little to no effect on model accuracy, while permuting important variables should significantly decrease it.
+
+\begin{figure}[h]
+    \centering
+        \includegraphics[width=0.5\textwidth]{meanDecreaseGINI}
+    \caption{Mean decrease impurity showing how often elements can affect the model if chosen randomly}
+    \label{fig:mdg}
+\end{figure}
+
+Figure \ref{fig:mdg} shows the mean decrease impurity which uses the R function varImpPlot to measure the mean decrease GINI impurity.Gini impurity is a measure of how often a randomly chosen element from the set would be incorrectly labeled if it were randomly labeled according to the distribution of labels in the subset.
+
+The RockFence LLC supplied data corresponds with other previously reported cases that the number of fastballs thrown is an important factor in predicting TJS surgery.
